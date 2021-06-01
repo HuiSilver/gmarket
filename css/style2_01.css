@@ -1,0 +1,246 @@
+@media (max-width:768px) {
+    .homeshopping,
+    .catch,
+    .overseas,
+    .g9Wrap,
+    .mainFontguide,
+    .superdealContent .section h5{
+        display: none;
+    }
+    /* ScrollTop */
+    .mainScrTop{
+        bottom:60px;right:10px;
+        border:1px solid #ccc;
+    }
+    
+    /* Superdeal */
+    .superdeal{
+        min-width:320px;
+        height:auto;
+        padding:20px 0 10px;
+        background:#DCDCDC;
+        margin-top:235px;
+    }
+    .superdealWrap{
+        width:100%;
+        padding:0 10px;
+    }
+    .superdealHead{
+        height:50px;
+        padding:12px 25px;
+        background:#E9E9E9;
+    }
+    .superdealHead img{width:84px;height:23px;}
+    .superdealHead a{padding-top:4px;font-size:12px;}
+    .superdealHead>a i{background:none;color:#777;}
+    .superdealNav{
+        display:block;
+        width:100%;height:40px;
+        margin-bottom:10px;
+        background:#fff;
+    }
+    .superdealNav ul{
+        display:flex;
+        justify-content:space-between;
+        padding:0 13px;
+    }
+    .superdealNav ul a{
+        font-size:11px;        
+    }
+    .superdealNav li{cursor:pointer;padding:9px;}
+    .superdealContent{height:auto;}
+    .superdealContent .section{
+        width:100%;height:305px;
+        margin-bottom:10px;
+        background:#fff;
+    }
+    .superImg{
+        height:200px;
+        margin-bottom:10px;
+        border:none;
+        border-radius:0px;
+    }
+    .superdealContent .section>a>p{
+        margin-left:20px;
+        font-size:15px;
+        font-weight:300;
+    }
+    .superdealContent .section h4{
+        position:absolute;top:240px;
+        margin-left:20px;
+        font-size:21px;
+        color:#222;
+    }
+    .superdealContent .section>a>span{
+        position:absolute;top:270px;
+        float:left;
+        margin-left:20px;
+        font-size:11px;
+        color:#94989f;
+    }
+    .superdealContent .section button,
+    .superdealWrap>a{
+        display:none;
+    }
+    .superHeart{
+        top:240px;right:70px;
+        width:40px;height:40px;
+        padding:8px;
+        border-radius:30px;
+    }
+    .superdealContent .sectionAd{
+        width:100%;
+        height:400px;
+        background-position:center;
+    }
+    .superHeart .ri-heart-line{font-size:23px;color:#777;}
+    .superHeart .ri-heart-fill{font-size:23px;}
+    .superBuy{
+        display:block;
+        position:absolute;
+        top:240px;right:20px;
+        width:40px;height:40px;
+        padding:5px;
+        background:#fff;
+        border:1px solid #ccc;
+        border-radius:30px;
+        text-align:center;
+        cursor:pointer;
+    }
+    .superBuy p{
+        font-size:10px;
+    }
+    .superBuy p:nth-of-type(1){color:#3C87FF;font-size:11px;}
+    .superdealContent .sectionAd{margin-bottom:10px;border-radius:0px;}
+    .sectionAd h3{font-size:26px;}
+    .superAd{left:50px}
+    .familySite{
+        display:block;
+        width:100%;height:208px;
+        background:#fff;
+    }
+    .familySite>p{
+        padding:13px;
+        font-size:14px;
+        font-weight:300;
+    }
+    .familySite .content{
+        float:left;
+        width:50%;
+        margin-bottom:15px;
+        text-align:center;
+        color:#999;
+        font-size:13px;
+    }
+    .familySite .content:nth-of-type(1){
+        border-right:1px solid #ccc;
+    }
+    .familySite .content h6{font-size:13px;}
+    .familySite .content button{
+        width:78px;height:26px;
+        margin-top:10px;
+        border:1px solid #eee;
+        font-size:14px;
+        background:#f6f6f6;
+        color:#666;
+    }
+    .siteImgL{
+        width:70px;height:70px;
+        margin:0 auto 5px;
+        background:url(http://pics.gmarket.co.kr/mobile/main/bg_main_common.png) no-repeat;
+        background-position:-108px 0;
+        background-size:250px auto;
+    }
+    .siteImgR{
+        width:70px;height:70px;
+        margin:0 auto 5px;
+        background:url(http://pics.gmarket.co.kr/mobile/main/bg_main_common.png) no-repeat;
+        background-position:-180px 0;
+        background-size:250px auto;
+    }
+    /* Footer */
+    footer .main{display:none;}
+    footer .mobileFooter{
+        display:block;
+        padding:15px 0;
+        background:#5E636D;
+        font-weight:300;
+        text-align:center;
+    }
+    .mobFooterTop button{
+        width:60px;height:25px;
+        background:#6E727B;
+        color:#ccc;
+        font-size:13px;
+        border-radius:2px;
+    }
+    .mobFooterContent{
+        margin-top:15px;
+        color:#ccc;
+    }
+    .mobInfo{font-weight:300;cursor:pointer;}
+    .mobFooterContent button{
+        vertical-align:text-top;
+        width:13px;height:13px;
+        margin-left:5px;
+        text-align:center;
+        outline:none;
+    }
+    .mobToggle1{
+        display:inline-block;
+        width:20px;height:20px;
+        background:url(../images/mobToggle_1.PNG) no-repeat center;
+    }
+    .mobToggle2{
+        display:none;
+        width:20px;height:20px;
+        background:url(../images/mobToggle_2.PNG) no-repeat center;
+    }
+
+    .mobFooterContent .ri-arrow-up-s-line{display:none;}
+    .mobFooterContent ul{
+        display:none; 
+        width:100%;
+        height:165px;
+        margin-top:10px;
+        padding:5px 0;
+        background:#646972;
+        font-size:11px;
+        text-align:left;
+        line-height:15px;
+    }
+    .mobFooterContent li{
+        position:relative;
+        width:252px;
+        margin:0 auto;
+        padding-left:75px;
+    }
+    .mobFooterContent .tit{
+        position:absolute;
+        top:0;left:0px;
+        color:#9ea1a8;
+        font-size:11px;
+    }
+    .mobFooterContent .txt{
+        color:#ccc;
+        font-size:11px;
+    }
+    .mobBottom{margin-top:10px;}
+    .mobBottom a{
+        display:inline-block;
+        margin-bottom:10px;
+        color:#ccc;
+    }
+    .mobBottom>p{
+        display:inline-block;
+        color:#83878F;
+    }
+    .mobBottom div p{
+        color:#83878F;
+        font-size:11px;
+        line-height:12px;
+    }
+    
+    
+    
+}
