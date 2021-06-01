@@ -1,0 +1,1865 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>G마켓</title>
+    <!--  font-awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="js/prefixfree.min.js"></script>
+    <!--  remix icon  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index-1.css">
+    <!-- CSS_main2 -->
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style2_01.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./slick/slick.js"></script>
+</head>
+
+<body>
+    <button class="mainScrTop"></button>
+    <div id="wrap">
+        <div class="container">
+            <header class="toptop">
+                <div class="boxHead">
+                    <img src="images/imgLogo.png" alt="" class="logo" onclick="javascript:location.href='index.html'">
+                    <img src="images/imgLogo_m.png" alt="" class="logo_m" onclick="javascript:location.href='index.html'">
+                    <form>
+                        <fieldset><input type="text"><button type="submit"><img src="images/imgSearch.png" alt="" class="btnSearch"></button></fieldset>
+                    </form>
+                    <div class="link">
+                        <a><img src="images/headerAd.png" alt="" width="154px" height="55px" class="headerAd"></a>
+                        <a><img src="images/headerMyInfo.png" alt="" width="47px" height="55px" class="headerMyInfo"></a>
+                        <a href="product/product.html"><img src="images/headerRecent.png" alt="" width="47px" height="55px" class="
+                        headerRecent"></a>
+                        <a href="cart/cart.html"><img src="images/headerBasket.png" alt="" width="47px" height="55px" class="headerBasket"></a>
+                    </div>
+                </div>
+
+                <div class="menuTopMobile">
+                    <a href="">홈</a>
+                    <a href="">스마일배송</a>
+                    <a href="product/product.html">베스트</a>
+                    <a href="">당일배송</a>
+                    <a href="">홈쇼핑</a>
+                    <a href="">백화점</a>
+                    <a href="">패션</a>
+                    <a href="">공간</a>
+                    <a href="">마트</a>
+                    <a href="">배달</a>
+                    <a href="">여행</a>
+                    <a href="">e쿠폰</a>
+                </div>
+
+                <div class="boxNavigation">
+                    <button class="menuAll">전체 카테고리</button>
+                    <div class="menuSub">
+                        <a href="">베스트</a>
+                        <a href="">슈퍼딜</a>
+                        <a href="">쿠폰·출첵</a>
+                        <a href="">스마일배송</a>
+                        <a href=""><img src="images/catch.png" width="44px" height="32px" alt=""></a>
+                        <a href="" class="gold">스마일클럽</a>
+                    </div>
+                    <div class="login">
+                        <a href="">로그인</a>
+                        <a href="">회원가입</a>
+                        <a href="">고객센터</a>
+                        <a href="">Global</a>
+                    </div>
+                </div>
+            </header>
+            <!--                스크롤내리면 바뀌게 할 부분-->
+            <header class="down">
+                <div class="boxHeadDown">
+                    <button class="menuAllSmall"></button>
+                    <img src="images/imgLogoSmall.png" class="logoSmall" onclick="javascript:location.href='index.html'">
+                    <form>
+                        <fieldset><input type="text"><button type="submit"><img src="images/imgSearch.png" alt="" class="btnSearch"></button></fieldset>
+                    </form>
+                    <div class="link">
+                        <a><img src="images/headerMyInfo.png" alt="" width="47px" height="55px"></a>
+                        <a href="product/product.html"><img src="images/headerRecent.png" alt="" width="47px" height="55px"></a>
+                        <a href="cart/cart.html"><img src="images/headerBasket.png" alt="" width="47px" height="55px"></a>
+                    </div>
+                </div>
+                <div class="conDown">
+                    <div class="inner">
+                        <!--           네비게이션  -->
+                        <div class="navbarDown">
+                            <a href="#brand">브랜드패션</a>
+                            <a href="#baby">유아동</a>
+                            <div class="dropdown">
+                                <a href="product/product.html" class="over">패션의류ㆍ잡화ㆍ뷰티</a>
+                                <div class="dropdown-contentDown">
+                                    <div class="row">
+                                        <div class="column">
+                                            <h3>패션의류</h3>
+                                            <a href="product.html">여성의류</a>
+                                            <a href="#">남성의류</a>
+                                            <a href="#">언더웨어</a>
+                                            <a href="#">유아동의류</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>잡화</h3>
+                                            <a href="#">신발</a>
+                                            <a href="#">가방/잡화</a>
+                                            <a href="#">유아동 신발/잡화</a>
+                                            <a href="#">쥬얼리/시계</a>
+                                            <a href="#">수입명품</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>뷰티</h3>
+                                            <a href="#">백화점 명품화장품</a>
+                                            <a href="#">화장품/향수</a>
+                                            <a href="#">바디/헤어</a>
+                                        </div>
+                                        <div class="menuSum">
+                                            <img src="images/menuImg1.jpg" alt="">
+                                            <span>매주 업데이트되는 패션 쿠폰</span>
+                                            <p>매일 쏟아지는 쿠폰북 혜택을 받으세요</p>
+                                        </div>
+                                        <div class="menuBottom">
+                                            <span>바로가기<img src="images/arrow.png" alt=""></span>
+                                            <ul>
+                                                <li><a href="">해외직구</a></li>
+                                                <li><a href="">당일배송</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#food">식품ㆍ생필품</a>
+                            <a href="#acc">홈데코ㆍ문구ㆍ취미ㆍ반려</a>
+                            <a href="#computer">컴퓨터ㆍ디지털ㆍ가전</a>
+                            <a href="#sport">스포츠ㆍ건강ㆍ렌탈</a>
+                            <a href="#car">자동차ㆍ공구</a>
+                            <a href="#travel">여행ㆍ도서ㆍ티켓</a>
+                        </div>
+                    </div>
+                </div>
+                <!--           네비게이션 -->
+                <!--                스크롤내리면 바뀌게 할 부분-->
+            </header>
+
+            <div class="con">
+                <section class="mainSlide">
+                    <div class="dimLeft"></div>
+                    <div class="dimRight"></div>
+                    <div class="topSlide">
+                        <div><img src="images/top1.JPG" alt=""></div>
+                        <div><img src="images/top2.JPG" alt=""></div>
+                        <div><img src="images/top3.JPG" alt=""></div>
+                        <div><img src="images/top4.JPG" alt=""></div>
+                        <div><img src="images/top5.JPG" alt=""></div>
+                    </div>
+                    <div class="topSlideMobile">
+                        <div><img src="images/top1.JPG" alt=""></div>
+                        <div><img src="images/top2.JPG" alt=""></div>
+                        <div><img src="images/top3.JPG" alt=""></div>
+                        <div><img src="images/top4.JPG" alt=""></div>
+                        <div><img src="images/top5.JPG" alt=""></div>
+                    </div>
+                    <div class="goldbarMenu">
+                        <div class="gold"><img src="images/smileClub.png" alt=""></div>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="images/goldbarMenu1.png" alt="">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href=""><img src="images/goldbarMenu2.png" alt="">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href=""><img src="images/goldbarMenu3.png" alt="">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">
+                                    <img src="images/goldbarMenu4.png" alt="">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">
+                                    <img src="images/goldbarMenu5.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="images/goldbarMenu6.png" alt="">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">
+                                    <img src="images/goldbarMenu7.png" alt="">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">
+                                    <img src="images/goldbarMenu8.png" alt="">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">
+                                    <img src="images/goldbarMenu9.gif" alt="">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">
+                                    <img src="images/goldbarMenu10.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular">
+                        <h3 class="tit">인기검색어</h3>
+                        <div class="popBox">
+                            <div class="popList"><span>1.</span> kf94 마스크 대형<img src="images/upArrow.png" alt=""></div>
+                            <div class="popList"><span>2.</span> 자일로올리고당분말<img src="images/upArrow.png" alt=""></div>
+                            <div class="popList"><span>3.</span> 빌베리가루<img src="images/downArrow.png" alt=""></div>
+                            <div class="popList"><span>4.</span> 포스트바이오틱스 유산균<img src="images/upArrow.png" alt=""></div>
+                            <div class="popList"><span>5.</span> 금강제화 남성구두<img src="images/downArrow.png" alt=""></div>
+                        </div>
+                        <div class="popArrow"></div>
+                    </div>
+                    <div class="inner">
+                        <!--           네비게이션 -->
+                        <div class="navbar">
+                            <a href="#brand">브랜드패션</a>
+                            <a href="#baby">유아동</a>
+
+                            <div class="dropdown">
+                                <a href="product/product.html">패션의류ㆍ잡화ㆍ뷰티</a>
+                                <div class="dropdown-content">
+                                    <div class="row">
+                                        <div class="column">
+                                            <h3>패션의류</h3>
+                                            <a href="product/product.html">여성의류</a>
+                                            <a href="#">남성의류</a>
+                                            <a href="#">언더웨어</a>
+                                            <a href="#">유아동의류</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>잡화</h3>
+                                            <a href="#">신발</a>
+                                            <a href="#">가방/잡화</a>
+                                            <a href="#">유아동 신발/잡화</a>
+                                            <a href="#">쥬얼리/시계</a>
+                                            <a href="#">수입명품</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>뷰티</h3>
+                                            <a href="#">백화점 명품화장품</a>
+                                            <a href="#">화장품/향수</a>
+                                            <a href="#">바디/헤어</a>
+                                        </div>
+                                        <div class="menuSum">
+                                            <img src="images/menuImg1.jpg" alt="">
+                                            <span>매주 업데이트되는 패션 쿠폰</span>
+                                            <p>매일 쏟아지는 쿠폰북 혜택을 받으세요</p>
+                                        </div>
+                                        <div class="menuBottom">
+                                            <span>바로가기<img src="images/arrow.png" alt=""></span>
+                                            <ul>
+                                                <li><a href="">해외직구</a></li>
+                                                <li><a href="">당일배송</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#food">식품ㆍ생필품</a>
+                            <a href="#acc">홈데코ㆍ문구ㆍ취미ㆍ반려</a>
+                            <a href="#computer">컴퓨터ㆍ디지털ㆍ가전</a>
+                            <a href="#sport">스포츠ㆍ건강ㆍ렌탈</a>
+                            <a href="#car">자동차ㆍ공구</a>
+                            <a href="#travel">여행ㆍ도서ㆍ티켓</a>
+                        </div>
+                    </div>
+                    <!--           네비게이션 -->
+                </section>
+                <!--           지금 제일 잘 나가는 상품 -->
+                <section class="mainBest">
+                    <p class="title">지금 제일 잘 나가는 상품</p>
+                    <a href="">전체보기 <img src="images/arrowGrren.jpg" alt=""></a>
+                    <ul class="box1">
+                        <li class="innerBox">
+                            <span class="textRank">1</span>
+                            <div class="imgCircle"><img src="images/best1.jpg" alt=""></div>
+                            <p class="textName">메론 머스크 멜론 3수 4kg내외</p>
+                            <p class="boxPrice">14,900<span class="textUnit">원</span></p>
+                        </li>
+                        <li class="innerBox">
+                            <span class="textRank">2</span>
+                            <div class="imgCircle"><img src="images/best2.jpg" alt=""></div>
+                            <p class="textName">[닥터방기원]랩 탈모샴푸 1Lx3통+랩토닉 150ml+나노버블 폼클렌징</p>
+                            <p class="boxPrice">21,900<span class="textUnit">원</span></p>
+                        </li>
+                        <li class="innerBox">
+                            <span class="textRank">3</span>
+                            <div class="imgCircle"><img src="images/best3.jpg" alt=""></div>
+                            <p class="textName">[얌테이블]탱글탱글 노바시새우 튀김용 새우 40+40 총 80마리</p>
+                            <p class="boxPrice">12,900<span class="textUnit">원</span></p>
+                        </li>
+                        <li class="innerBox">
+                            <span class="textRank">4</span>
+                            <div class="imgCircle"><img src="images/best4.jpg" alt=""></div>
+                            <p class="textName">아침이슬사과 경북 빨간 사과 5kg 꼬마(25-35)</p>
+                            <p class="boxPrice">15,480<span class="textUnit">원</span></p>
+                        </li>
+                        <li class="innerBox">
+                            <span class="textRank">5</span>
+                            <div class="imgCircle"><img src="images/best5.jpg" alt=""></div>
+                            <p class="textName">[케이지커머스]바른세탁소 액체세제 라임향 2.5L 4개 세탁세제</p>
+                            <p class="boxPrice">6,900<span class="textUnit">원</span></p>
+                        </li>
+                        <li class="innerBox">
+                            <span class="textRank">6</span>
+                            <div class="imgCircle"><img src="images/best6.jpg" alt=""></div>
+                            <p class="textName">국내산 KF-AD 비말차단 대형 화이트마스크 50매X2박스</p>
+                            <p class="boxPrice">19,900<span class="textUnit">원</span></p>
+                        </li>
+                        <li class="innerBox">
+                            <span class="textRank">7</span>
+                            <div class="imgCircle"><img src="images/best7.jpg" alt=""></div>
+                            <p class="textName">[나무하나]텐더 플랫(Tender Flat)+파우치</p>
+                            <p class="boxPrice">284,000<span class="textUnit">원</span></p>
+                        </li>
+                        <li class="innerBox">
+                            <span class="textRank">8</span>
+                            <div class="imgCircle"><img src="images/best8.jpg" alt=""></div>
+                            <p class="textName">프라이데이 가을신상 빅세일/롱티/원피스</p>
+                            <p class="boxPrice">5,900<span class="textUnit">원</span></p>
+                        </li>
+                        <li class="innerBox">
+                            <span class="textRank">9</span>
+                            <div class="imgCircle"><img src="images/best9.jpg" alt=""></div>
+                            <p class="textName">비폰 포보 베트남 쌀국수 1박스 소고기맛</p>
+                            <p class="boxPrice">15,750<span class="textUnit">원</span></p>
+                        </li>
+                        <li class="innerBox">
+                            <span class="textRank">10</span>
+                            <div class="imgCircle"><img src="images/best10.jpg" alt=""></div>
+                            <p class="textName">[동원에프앤비]라이트스탠다드 85X22캔 + 랜덤증정</p>
+                            <p class="boxPrice">21,000<span class="textUnit">원</span></p>
+                        </li>
+                    </ul>
+
+                </section>
+
+                <!--           G마켓에서 장보기 -->
+                <section class="mainShopping">
+                    <div class="left">
+                        <p class="title">G마켓에서 장보기</p>
+                        <a href="">바로가기 <img src="images/arrowGrren.jpg" alt=""></a>
+                        <div class="slider">
+                            <div class="box0">
+                                <p class="textTitle">집 앞까지 신선하게, G마켓 당일배송</p>
+                                <div class="boxInfo">
+                                    <span class="homeplusLogo"></span>
+                                    <p class="text">2020년산 햅쌀<br>매일 3천원 할인</p>
+                                    <p class="textSub">맛있는 마트, 홈플러스</p>
+                                    <div class="boxImg"><img src="images/shopping1.png" alt=""></div>
+                                    <button type="button" class="prev"></button>
+                                    <button type="button" class="next"></button>
+                                </div>
+                            </div>
+                            <div class="box3">
+                                <p class="textTitle1">집 앞까지 신선하게, G마켓 당일배송</p>
+                                <div class="boxInfo">
+                                    <span class="gsLogo"></span>
+                                    <p class="text">한돈 삼겹살<br>매일 3천원 할인</p>
+                                    <p class="textSub">신선함의 시작, GS프레시</p>
+                                    <div class="boxImg"><img src="images/shopping2.png" alt=""></div>
+                                    <button type="button" class="prev"></button>
+                                    <button type="button" class="next"></button>
+                                </div>
+                            </div>
+                            <div class="box0">
+                                <p class="textTitle">집 앞까지 신선하게, G마켓 당일배송</p>
+                                <div class="boxInfo">
+                                    <span class="lotteLogo"></span>
+                                    <p class="text">한가위빅세일<br>최대 20% 할인</p>
+                                    <p class="textSub">365일 신선배송, 롯데프레시</p>
+                                    <div class="boxImg"><img src="images/shopping3.png" alt=""></div>
+                                    <button type="button" class="prev"></button>
+                                    <button type="button" class="next"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="boxItemTab">
+                            <ul class="listItemTab">
+                                <div class="header">
+                                    <a href="" class="tab1"></a>
+                                    <div class="bar"></div>
+                                    <a href="" class="tab2"></a>
+                                    <div class="bar"></div>
+                                    <a href="" class="tab3"></a>
+                                </div>
+                                <!--                          롯데프레시 -->
+                                <li class="lotte">
+                                    <div class="itemContent">
+                                        <ul>
+                                            <li><span class="pic"><img src="images/lotte1.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="green">전단상품</span>
+                                                    <p>판계란(30입/대란)</p>
+                                                    <p class="price">4,970<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/lotte2.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="green">전단상품</span>
+                                                    <p>사과 5~7입/봉</p>
+                                                    <p class="price">9,850<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/lotte3.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="orange">행사상품</span>
+                                                    <p>초L 세이브우유 930ML 2입기획</p>
+                                                    <p class="price">3,380<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/lotte4.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="orange">행사상품</span>
+                                                    <p>하림 용가리치킨300+치킨너겟300기획</p>
+                                                    <p class="price">5,990<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/lotte5.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="yellow">1+1</span>
+                                                    <p>농심 양파링 84G</p>
+                                                    <p class="price">990<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/lotte6.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="yellow">1+1</span>
+                                                    <p>농심 조청 유과 96G</p>
+                                                    <p class="price">4,970<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <a class="linkGo">롯데프레시 바로가기 <img src="images/arrowGrren.jpg" alt=""></a>
+                                    </div>
+                                </li>
+                                <!--                          GS프레시 -->
+                                <li class="gsfresh">
+                                    <div class="itemContent">
+                                        <ul>
+                                            <li><span class="pic"><img src="images/gs1.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="green">전단상품</span>
+                                                    <p>밥맛좋은쌀 20kg(19년산)</p>
+                                                    <p class="price">49,560<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/gs2.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="green">전단상품</span>
+                                                    <p>사과 5~7입/봉</p>
+                                                    <p class="price">12,850<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/gs3.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="orange">행사상품</span>
+                                                    <p>GSFresh 국산 팽이버섯(봉)</p>
+                                                    <p class="price">580<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/gs4.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="orange">행사상품</span>
+                                                    <p>삼호 어묵(정통어묵탕) 342g</p>
+                                                    <p class="price">2,970<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/gs5.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="yellow">1+1</span>
+                                                    <p>제주 꼬맹이하우스밀감(500g/팩)</p>
+                                                    <p class="price">8,760<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/gs6.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="yellow">1+1</span>
+                                                    <p>삼립 아침우유식빵 300g</p>
+                                                    <p class="price">2,480<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <a class="linkGo">GS프레시 바로가기 <img src="images/arrowGrren.jpg" alt=""></a>
+                                    </div>
+                                </li>
+                                <!--                          홈플러스 -->
+                                <li class="homeplus">
+                                    <div class="itemContent">
+                                        <ul>
+                                            <li><span class="pic"><img src="images/plus1.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="green">전단상품</span>
+                                                    <p>(전단상품)여름을 견뎌낸 대표산지 햇사과_4-8입 봉</p>
+                                                    <p class="price">9,560<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/plus2.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="green">전단상품</span>
+                                                    <p>(전단상품)부드럽고 향긋한 무화과_1.5KG 박스 </p>
+                                                    <p class="price">12,930<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/plus3.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="orange">행사상품</span>
+                                                    <p>(행사상품)N 동서식품_맥심모카골드믹스_230T 2760G</p>
+                                                    <p class="price">22,790<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/plus4.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="orange">행사상품</span>
+                                                    <p>(행사상품)New고시히카리초밥세트_30입</p>
+                                                    <p class="price">10,940<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/plus5.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="yellow">1+1</span>
+                                                    <p>(1+1)크라운_쿠크다스화이트_128G</p>
+                                                    <p class="price">2,370<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/plus6.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="yellow">1+1</span>
+                                                    <p>(1+1)해태_오사쯔_100G</p>
+                                                    <p class="price">2,370<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <a class="linkGo">홈플러스 바로가기 <img src="images/arrowGrren.jpg" alt=""></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--         스마일배송                 -->
+                    <div class="left">
+                        <p class="title">스마일배송</p>
+                        <a href="">바로가기 <img src="images/arrowGrren.jpg" alt=""></a>
+                        <div class="slider">
+                            <div class="box2">
+                                <p class="textTitle2">오늘 주문! 내일 도착! 빠르고 정확한 스마일배송</p>
+                                <div class="boxInfo">
+                                    <span class="blankLogo"></span>
+                                    <p class="text">맛있는 한 끼 식사<br>CJ제일제당</p>
+                                    <p class="textSub">맛있는 간편식품이 한 번에!</p>
+                                    <div class="boxImg"><img src="images/smile1.png" alt=""></div>
+                                    <button type="button" class="prev"></button>
+                                    <button type="button" class="next"></button>
+                                </div>
+                            </div>
+                            <div class="box2">
+                                <p class="textTitle2">오늘 주문! 내일 도착! 빠르고 정확한 스마일배송</p>
+                                <div class="boxInfo">
+                                    <span class="blankLogo"></span>
+                                    <p class="text">스마일배송<br>오늘의 슈퍼딜</p>
+                                    <p class="textSub">궁금하면 클릭!</p>
+                                    <div class="boxImg"><img src="images/smile2.png" alt=""></div>
+                                    <button type="button" class="prev"></button>
+                                    <button type="button" class="next"></button>
+                                </div>
+                            </div>
+                            <div class="box2">
+                                <p class="textTitle2">오늘 주문! 내일 도착! 빠르고 정확한 스마일배송</p>
+                                <div class="boxInfo">
+                                    <span class="blankLogo"></span>
+                                    <p class="text">디지털 가전도<br>역시 스마일배송</p>
+                                    <p class="textSub">빅세일로 가전제품 할인받으세요</p>
+                                    <div class="boxImg"><img src="images/smile3.png" alt=""></div>
+                                    <button type="button" class="prev"></button>
+                                    <button type="button" class="next"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="boxItemTab">
+                            <ul class="listItemTab">
+                                <div class="header">
+                                    <a class="tab4">지금 인기상품</a>
+                                    <div class="bar1"></div>
+                                    <a class="tab5">무료배송 상품</a>
+                                </div>
+                                <li class="now">
+                                    <!--                          지금 인기상품 -->
+                                    <div class="itemContent">
+                                        <ul>
+                                            <li><span class="pic"><img src="images/now1.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="blue"> 1 </span>
+                                                    <p>크리넥스 3겹 데코소프트 33MX24롤 X2팩화장지/휴지</p>
+                                                    <p class="price">39,970<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/now2.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="blue">2</span>
+                                                    <p>순수PURE 천연펄프 25m30롤 x3팩/휴지/화장지</p>
+                                                    <p class="price">26,950<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/now3.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="blue">3</span>
+                                                    <p>초L 세이브우유 930ML 2입기획</p>
+                                                    <p class="price">3,380<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/now4.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="blue">4</span>
+                                                    <p>제주 삼다수 500ML 20입</p>
+                                                    <p class="price">9,560<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/now5.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="blue">5</span>
+                                                    <p>CJ 둥근햇반실속8입 210Gx8</p>
+                                                    <p class="price">8,940<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/now6.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="blue">6</span>
+                                                    <p>오뚜기즉석밥210g 24개/1박스 당일발송</p>
+                                                    <p class="price">22,220<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <a class="linkGo">인기상품 더보기 <img src="images/arrowGrren.jpg" alt=""></a>
+                                    </div>
+                                </li>
+                                <!--                          무료배송 상품 -->
+                                <li class="free">
+                                    <div class="itemContent">
+                                        <ul>
+                                            <li><span class="pic"><img src="images/gs1.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="blue1">무료배송</span>
+                                                    <p>밥맛좋은쌀 20kg(19년산)</p>
+                                                    <p class="price">49,560<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/gs2.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="blue1">무료배송</span>
+                                                    <p>푸드파이터 이베리코 목살 250g 1개 2+1 행사</p>
+                                                    <p class="price">6,000<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/gs3.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="blue">무료배송</span>
+                                                    <p>GSFresh 국산 팽이버섯(봉)</p>
+                                                    <p class="price">580<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/gs4.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="blue1">무료배송</span>
+                                                    <p>삼호 어묵(정통어묵탕) 342g</p>
+                                                    <p class="price">2,970<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/gs5.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="blue1">무료배송</span>
+                                                    <p>제주 꼬맹이하우스밀감(500g/팩)</p>
+                                                    <p class="price">8,760<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                            <li><span class="pic"><img src="images/gs6.jpg" alt=""></span>
+                                                <div class="txt">
+                                                    <span class="blue1">무료배송</span>
+                                                    <p>삼립 아침우유식빵 300g</p>
+                                                    <p class="price">2,480<span class="unit">원</span></p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <a class="linkGo">무료 상품 더보기 <img src="images/arrowGrren.jpg" alt=""></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!--           G마켓 서비스 -->
+                <section class="mainService">
+                    <p class="title">G마켓 서비스</p>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <div class="cir">
+                                    <img src="images/service1.png" alt="">
+                                </div>
+                                <span>스마일클럽</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="cir">
+                                    <img src="images/service2.png" alt="">
+                                </div>
+                                <span>스마일카드</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="cir">
+                                    <img src="images/service3.png" alt="">
+                                </div>
+                                <span>스마일배송</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="cir">
+                                    <img src="images/service4.png" alt="">
+                                </div>
+                                <span>스마일박스</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="cir">
+                                    <img src="images/service5.gif" alt="">
+                                </div>
+                                <span>당일배송</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="cir">
+                                    <img src="images/service6.png" alt="">
+                                </div>
+                                <span>KT샵</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="cir">
+                                    <img src="images/service7.png" alt="">
+                                </div>
+                                <span>여행/항공</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="cir">
+                                    <img src="images/service8.png" alt="">
+                                </div>
+                                <span>공연티켓</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="cir">
+                                    <img src="images/service9.png" alt="">
+                                </div>
+                                <span>사업자회원혜택</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="cir">
+                                    <img src="images/service10.png" alt="">
+                                </div>
+                                <span>후원쇼핑</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="cir">
+                                    <img src="images/service11.png" alt="">
+                                </div>
+                                <span>해외직구</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="cir">
+                                    <img src="images/service12.png" alt="">
+                                </div>
+                                <span>G9</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="bottomMenu">
+                <ul>
+                    <li><a href=""><img src="images/bottomMenu1.png" alt=""></a></li>
+                    <li><a href=""><img src="images/bottomMenu2.png" alt=""></a></li>
+                    <li><a href=""><img src="images/bottomMenu3.png" alt=""></a></li>
+                    <li><a href=""><img src="images/bottomMenu4.png" alt=""></a></li>
+                    <li><a href=""><img src="images/bottomMenu5.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="homeshopping">
+        <div class="homespWrap">
+            <div class="homespHead">
+                <h3>홈쇼핑 모아보기</h3>
+                <p>ON AIR</p>
+            </div>
+            <button class="homespPrev"><i class="ri-arrow-left-s-line"></i></button>
+            <button class="homespNext"><i class="ri-arrow-right-s-line"></i></button>
+            <div class="homespContent">
+                <div class="section">
+                    <a href="">
+                        <div class="homespImg">
+                            <img src="images/homeshopping_content_01.jpg" alt="">
+                            <div class="homespPlay">
+                                <i class="ri-play-line"></i>
+                                <p>LIVE</p>
+                            </div>
+                        </div>
+                        <p>(퀸)로얄베일 프리미엄 호텔식 베딩패키지 (이불+토퍼+베개커버2)</p>
+                        <h4>88,000<span>원</span></h4>
+                    </a>
+                    <div class="homespBtn">
+                        <img src="images/homeshopping_btn_01.svg" alt="">
+                        <p>홈앤쇼핑</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <a href="">
+                        <div class="homespImg">
+                            <img src="images/homeshopping_content_02.jpg" alt="">
+                            <div class="homespPlay">
+                                <i class="ri-play-line"></i>
+                                <p>LIVE</p>
+                            </div>
+                        </div>
+                        <p>에바테일러 채정안의 사파리 재킷(사은품 패션마스크)</p>
+                        <h4>58,000<span>원</span></h4>
+                    </a>
+                    <div class="homespBtn">
+                        <img src="images/homeshopping_btn_02.svg" alt="">
+                        <p>SK스토아</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <a href="">
+                        <div class="homespImg">
+                            <img src="images/homeshopping_content_03.jpg" alt="">
+                            <div class="homespPlay">
+                                <i class="ri-play-line"></i>
+                                <p>LIVE</p>
+                            </div>
+                        </div>
+                        <p>20년신상 코데즈컴바인 프리컷 퍼펙트 스킨 캐미 BB브</p>
+                        <h4>71,200<span>원</span></h4>
+                    </a>
+                    <div class="homespBtn">
+                        <img src="images/homeshopping_btn_03.svg" alt="">
+                        <p>GS SHOP</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <a href="">
+                        <div class="homespImg">
+                            <img src="images/homeshopping_content_04.jpg" alt="">
+                            <div class="homespPlay">
+                                <i class="ri-play-line"></i>
+                                <p>LIVE</p>
+                            </div>
+                        </div>
+                        <p>쇼핑엔티 단독 백화점 판매동일 상품 20SS 라페어 인견 원피스 3종</p>
+                        <h4>49,920<span>원</span></h4>
+                    </a>
+                    <div class="homespBtn">
+                        <img src="images/homeshopping_btn_04.svg" alt="">
+                        <p>쇼핑엔티</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <a href="">
+                        <div class="homespImg">
+                            <img src="images/homeshopping_content_05.jpg" alt="">
+                            <div class="homespPlay">
+                                <i class="ri-play-line"></i>
+                                <p>LIVE</p>
+                            </div>
+                        </div>
+                        <p>김하진의 집밥한끼 제주 특대 은갈치 24토막 총6마리</p>
+                        <h4>69,900<span>원</span></h4>
+                    </a>
+                    <div class="homespBtn">
+                        <img src="images/homeshopping_btn_05.png" alt="">
+                        <p>CJ오쇼핑+</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <a href="">
+                        <div class="homespImg">
+                            <img src="images/homeshopping_content_06.jpg" alt="">
+                            <div class="homespPlay">
+                                <i class="ri-play-line"></i>
+                                <p>특별방송</p>
+                            </div>
+                        </div>
+                        <p>(추석명절) 영광生모시떡 130알 (동부80개+검은깨50개)</p>
+                        <h4>37,910<span>원</span></h4>
+                    </a>
+                    <div class="homespBtn">
+                        <img src="images/homeshopping_btn_06.svg" alt="">
+                        <p>K쇼핑</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <a href="">
+                        <div class="homespImg">
+                            <img src="images/homeshopping_content_07.jpg" alt="">
+                            <div class="homespPlay">
+                                <i class="ri-play-line"></i>
+                                <p>LIVE</p>
+                            </div>
+                        </div>
+                        <p>이종임의 LA갈비 500gX8팩</p>
+                        <h4>71,910<span>원</span></h4>
+                    </a>
+                    <div class="homespBtn">
+                        <img src="images/homeshopping_btn_07.svg" alt="">
+                        <p>NS홈쇼핑</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <a href="">
+                        <div class="homespImg">
+                            <img src="images/homeshopping_content_08.jpg" alt="">
+                            <div class="homespPlay">
+                                <i class="ri-play-line"></i>
+                                <p>매진임박</p>
+                            </div>
+                        </div>
+                        <p>20FW 마리아꾸르끼 싱글버튼 원피스</p>
+                        <h4>89,000<span>원</span></h4>
+                    </a>
+                    <div class="homespBtn">
+                        <img src="images/homeshopping_btn_08.svg" alt="">
+                        <p>GS MY SHOP</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <a href="">
+                        <div class="homespImg">
+                            <img src="images/homeshopping_content_09.jpg" alt="">
+                            <div class="homespPlay">
+                                <i class="ri-play-line"></i>
+                                <p>특별방송</p>
+                            </div>
+                        </div>
+                        <p>Live 잘크톤 조아제약 최신상 잘크톤 업 UP / 6개월</p>
+                        <h4>169,000<span>원</span></h4>
+                    </a>
+                    <div class="homespBtn">
+                        <img src="images/homeshopping_btn_09.svg" alt="">
+                        <p>CJ오쇼핑</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <a href="">
+                        <div class="homespImg">
+                            <img src="images/homeshopping_content_10.jpg" alt="">
+                            <div class="homespPlay">
+                                <i class="ri-play-line"></i>
+                                <p>특별방송</p>
+                            </div>
+                        </div>
+                        <p>Christian Villa 크리스찬빌라 마티(Mati) 벨벳토트백 라지</p>
+                        <h4>239,000<span>원</span></h4>
+                    </a>
+                    <div class="homespBtn">
+                        <img src="images/homeshopping_btn_10.svg" alt="">
+                        <p>현대홈쇼핑</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <a href="">
+                        <div class="homespImg">
+                            <img src="images/homeshopping_content_11.jpg" alt="">
+                            <div class="homespPlay">
+                                <i class="ri-play-line"></i>
+                                <p>LIVE</p>
+                            </div>
+                        </div>
+                        <p>2020 화산농협 해남 황토 밤고구마 3.5kg 2박스 총 7kg</p>
+                        <h4>30,900<span>원</span></h4>
+                    </a>
+                    <div class="homespBtn">
+                        <img src="images/homeshopping_btn_11.svg" alt="">
+                        <p>공영쇼핑</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <a href="">
+                        <div class="homespImg">
+                            <img src="images/homeshopping_content_12.jpg" alt="">
+                            <div class="homespPlay">
+                                <i class="ri-play-line"></i>
+                                <p>LIVE</p>
+                            </div>
+                        </div>
+                        <p>스피드랙 듀오 멀티수납장 더블 세트 (추가구성 선반 2단)</p>
+                        <h4>124,440<span>원</span></h4>
+                    </a>
+                    <div class="homespBtn">
+                        <img src="images/homeshopping_btn_12.svg" alt="">
+                        <p>W쇼핑</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="catch">
+        <div class="catchWrap">
+            <div class="catchLogo">
+                <img src="images/catch_logo.JPG" alt="">
+            </div>
+            <div class="catchHead">
+                <h3>당신의 마음을 캐치하는 쇼핑</h3>
+                <h4>9월 둘째주</h4>
+                <a href=""><img src="images/arrow_green_white.JPG" alt="">
+                    <p>캐치 더보기</p>
+                </a>
+            </div>
+            <div class="catchContent">
+                <div class="section">
+                    <a href="">
+                        <div class="catchHero">
+                            <img src="images/catch_hero_01.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="section">
+                    <a href="">
+                        <div class="catchImg">
+                            <img src="images/catch_hero_02.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="box">
+                        <a href="">
+                            <div class="catchSubImg">
+                                <img src="images/catch_content_01.jpg" alt="">
+                            </div>
+                            <h5>형사님 여기요!<br>밥도둑 젓갈 잡아라</h5>
+                            <img src="images/arrow_black_line.JPG" alt="" class="blackLine">
+                            <p>짭쪼롬함으로 없던 입맛도 살리고 밥맛 살려주는 밥도둑 젓갈 지금 잡아가세요!</p>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="">
+                            <div class="catchSubImg">
+                                <img src="images/catch_content_02.jpg" alt="">
+                            </div>
+                            <h5>한국인 입맛에 딱<br>집밥은 장맛이지</h5>
+                            <img src="images/arrow_black_line.JPG" alt="" class="blackLine">
+                            <p>그 집 음식 맛을 알려면 장맛부터 봐야 한다죠. 맛 좋은 전통장으로 우리집 음식 맛도 살려요.</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="section">
+                    <a href="">
+                        <div class="catchImg">
+                            <img src="images/catch_hero_03.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="box">
+                        <a href="">
+                            <div class="catchSubImg">
+                                <img src="images/catch_content_03.jpg" alt="">
+                            </div>
+                            <h5>미니멀 라이프<br>주방 정리 노하우</h5>
+                            <img src="images/arrow_black_line.JPG" alt="" class="blackLine">
+                            <p>보기도 좋고 쓰기도 편리하게! 주방 정리하는 노하우로 수납 다이어트 하세요.</p>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="">
+                            <div class="catchSubImg">
+                                <img src="images/catch_content_04.jpg" alt="">
+                            </div>
+                            <h5>우리 집도 호텔처럼<br>건식 욕실 만들기</h5>
+                            <img src="images/arrow_black_line.JPG" alt="" class="blackLine">
+                            <p>물기 없이 보송하고 위생적인 건식 욕실! 쾌적한 건식 욕실 만드는 방법을 캐치해보세요.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="superdeal">
+        <div class="superdealWrap">
+            <div class="superdealHead">
+                <img src="images/super_logo.png" alt="">
+                <a href="" class="spAllShow">전체보기<i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="superdealNav">
+                <ul>
+                    <li class="spChoiceShow">
+                        <a>추천</a>
+                    </li>
+                    <li class="spSmileShow">
+                        <a>스마일배송</a>
+                    </li>
+                    <li class="spFashionShow">
+                        <a>트렌드패션</a>
+                    </li>
+                    <li class="spNecessityShow">
+                        <a>생필품</a>
+                    </li>
+                    <li class="spApplianceShow">
+                        <a>가전/컴퓨터</a>
+                    </li>
+                    <li class="spFoodShow">
+                        <a>음식</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="superdealContent">
+                <li class="section spNecessity spAppliance">
+                    <a href="">
+                        <div class="superImg">
+                            <img src="images/superdeal_01.jpg" alt="">
+                        </div>
+                        <h5>51%</h5>
+                        <h4>4,900<span>원</span></h4>
+                        <p>1+1 2개 SET 3in1 멀티 동시 충전 케이블</p>
+                        <span>구매 16,677 · 무료배송</span>
+                    </a>
+                    <!-- superHeart가 a 태그 안에 있으면 클릭시 a의 링크도 함께 걸리므로 a태그 밖으로 분류해야한다. -->
+                    <div class="superHeart">
+                        <i class="ri-heart-line"></i>
+                        <i class="ri-heart-fill"></i>
+                    </div>
+                    <div class="superBuy">
+                        <p>46</p>
+                        <p>구매</p>
+                    </div>
+                    <button><i class="ri-home-2-line"></i>제로큐브</button>
+                </li>
+                <li class="section spNecessity">
+                    <a href="">
+                        <div class="superImg">
+                            <img src="images/superdeal_02.jpg" alt="">
+                        </div>
+                        <h5>15%</h5>
+                        <h4>15,900<span>원</span></h4>
+                        <p>애경 주방세제 순샘 대용량 3Lx4개</p>
+                        <span>구매 29,5647 · 무료배송</span>
+                    </a>
+                    <div class="superHeart">
+                        <i class="ri-heart-line"></i>
+                        <i class="ri-heart-fill"></i>
+                    </div>
+                    <div class="superBuy">
+                        <p>71</p>
+                        <p>구매</p>
+                    </div>
+                    <button><i class="ri-home-2-line"></i>애경공식몰</button>
+                </li>
+                <li class="sectionAd">
+                    <a href="">
+                        <div class="superAd">
+                            <h3>미안함과 고마움,<br>더 늦기 전에 전해요</h3>
+                            <a href="" class="superTag">#홍삼</a>
+                            <a href="" class="superTag">#리클라이너소파</a>
+                            <a href="" class="superTag">#건강즙</a>
+                            <a href="" class="superTag">#마사지건</a>
+                            <a href="" class="superTag">#40-60대 화장품</a>
+                            <a href="" class="superTag">#비타민</a>
+                        </div>
+                    </a>
+                </li>
+                <li class="section spFood">
+                    <a href="">
+                        <div class="superImg">
+                            <img src="images/superdeal_03.jpg" alt="">
+                        </div>
+                        <h5>33%</h5>
+                        <h4>7,800<span>원</span></h4>
+                        <p>theEASY 매콤 제육볶음 1+1팩</p>
+                        <span>구매 305 · 무료배송</span>
+                    </a>
+                    <div class="superHeart">
+                        <i class="ri-heart-line"></i>
+                        <i class="ri-heart-fill"></i>
+                    </div>
+                    <div class="superBuy">
+                        <p>141</p>
+                        <p>구매</p>
+                    </div>
+                    <button><i class="ri-home-2-line"></i>프레시지</button>
+                </li>
+                <li class="section spNecessity">
+                    <a href="">
+                        <div class="superImg">
+                            <img src="images/superdeal_04.jpg" alt="">
+                        </div>
+                        <h4><span>월</span>9,900<span>원</span></h4>
+                        <p>웰스 미니정수기+상품권 10만원 증정!</p>
+                        <span>구매 831 · 의무약정 60개월</span>
+                    </a>
+                    <div class="superHeart">
+                        <i class="ri-heart-line"></i>
+                        <i class="ri-heart-fill"></i>
+                    </div>
+                    <div class="superBuy">
+                        <p>125</p>
+                        <p>구매</p>
+                    </div>
+                    <button><i class="ri-home-2-line"></i>월스공식판매처</button>
+                </li>
+                <li class="section spFashion">
+                    <a href="">
+                        <div class="superImg">
+                            <img src="images/superdeal_05.jpg" alt="">
+                        </div>
+                        <h5>69%</h5>
+                        <h4>179,900<span>원</span></h4>
+                        <p>[30%+10%카드]에고이스트 역시즌 찐~세일</p>
+                        <span>구매 3,964 · 무료배송</span>
+                    </a>
+                    <div class="superHeart">
+                        <i class="ri-heart-line"></i>
+                        <i class="ri-heart-fill"></i>
+                    </div>
+                    <div class="superBuy">
+                        <p>NEW</p>
+                        <p>구매</p>
+                    </div>
+                    <button><i class="ri-home-2-line"></i>에고이스트공식스토어</button>
+                </li>
+                <li class="sectionAd">
+                    <a href="">
+                        <div class="superAd"></div>
+                    </a>
+                </li>
+                <li class="section spFashion">
+                    <a href="">
+                        <div class="superImg">
+                            <img src="images/superdeal_06.jpg" alt="">
+                        </div>
+                        <h5>69%</h5>
+                        <h4>34,000<span>원</span></h4>
+                        <p>[30%중복쿠폰] 금강 가을신상/샌들 세일</p>
+                        <span>구매 7,142 · 무료배송</span>
+                    </a>
+                    <div class="superHeart">
+                        <i class="ri-heart-line"></i>
+                        <i class="ri-heart-fill"></i>
+                    </div>
+                    <div class="superBuy">
+                        <p>101</p>
+                        <p>구매</p>
+                    </div>
+                    <button><i class="ri-home-2-line"></i>금강제화</button>
+                </li>
+                <li class="section spFashion">
+                    <a href="">
+                        <div class="superImg">
+                            <img src="images/superdeal_07.jpg" alt="">
+                        </div>
+                        <h5>61%</h5>
+                        <h4>30,810<span>원</span></h4>
+                        <p>25%+10%카드★헤지스 남녀 이너 BEST</p>
+                        <span>구매 90 · 무료배송</span>
+                    </a>
+                    <div class="superHeart">
+                        <i class="ri-heart-line"></i>
+                        <i class="ri-heart-fill"></i>
+                    </div>
+                    <div class="superBuy">
+                        <p>36</p>
+                        <p>구매</p>
+                    </div>
+                    <button><i class="ri-home-2-line"></i>LFmall</button>
+                </li>
+                <li class="section spNecessity spAppliance">
+                    <a href="">
+                        <div class="superImg">
+                            <img src="images/superdeal_08.jpg" alt="">
+                        </div>
+                        <h4><span>월</span>22,410<span>원</span></h4>
+                        <p>SK매직 트리플케어 식기세척기+오븐토스터기</p>
+                        <span>구매 37 · 의무약정 60개월</span>
+                    </a>
+                    <div class="superHeart">
+                        <i class="ri-heart-line"></i>
+                        <i class="ri-heart-fill"></i>
+                    </div>
+                    <div class="superBuy">
+                        <p>52</p>
+                        <p>구매</p>
+                    </div>
+                    <button><i class="ri-home-2-line"></i>sk매직공식렌탈샵</button>
+                </li>
+                <li class="section spNecessity">
+                    <a href="">
+                        <div class="superImg">
+                            <img src="images/superdeal_09.jpg" alt="">
+                        </div>
+                        <h5>46%</h5>
+                        <h4>14,900<span>원</span></h4>
+                        <p>스파클생수 2L 30병</p>
+                        <span>구매 171,288 · 무료배송</span>
+                    </a>
+                    <div class="superHeart">
+                        <i class="ri-heart-line"></i>
+                        <i class="ri-heart-fill"></i>
+                    </div>
+                    <div class="superBuy">
+                        <p>88</p>
+                        <p>구매</p>
+                    </div>
+                    <button><i class="ri-home-2-line"></i>스파클Mart</button>
+                </li>
+                <li class="section spFood">
+                    <a href="">
+                        <div class="superImg">
+                            <img src="images/superdeal_10.jpg" alt="">
+                        </div>
+                        <h5>50%</h5>
+                        <h4>14,900<span>원</span></h4>
+                        <p>산동고기왕만두 1.4kg+김치왕만두 1.4kg</p>
+                        <span>구매 13,413 · 무료배송</span>
+                    </a>
+                    <div class="superHeart">
+                        <i class="ri-heart-line"></i>
+                        <i class="ri-heart-fill"></i>
+                    </div>
+                    <div class="superBuy">
+                        <p>2,020</p>
+                        <p>구매</p>
+                    </div>
+                    <button><i class="ri-home-2-line"></i>미소푸드</button>
+                </li>
+                <li class="section spFood">
+                    <a href="">
+                        <div class="superImg">
+                            <img src="images/superdeal_11.jpg" alt="">
+                        </div>
+                        <h5>50%</h5>
+                        <h4>11,900<span>원</span></h4>
+                        <p>[13일출고] 새콤 첫출하 노지귤 5KG (랜덤과)</p>
+                        <span>구매 1,426 · 무료배송</span>
+                    </a>
+                    <div class="superHeart">
+                        <i class="ri-heart-line"></i>
+                        <i class="ri-heart-fill"></i>
+                    </div>
+                    <div class="superBuy">
+                        <p>84</p>
+                        <p>구매</p>
+                    </div>
+                    <button><i class="ri-home-2-line"></i>생생스토리</button>
+                </li>
+                <li class="section spFood">
+                    <a href="">
+                        <div class="superImg">
+                            <img src="images/superdeal_12.jpg" alt="">
+                        </div>
+                        <h4>22,500<span>원</span></h4>
+                        <p>풀무원 노엣지피자/얇은피만두구성+추가증정</p>
+                        <span>구매 8,146 · 무료배송</span>
+                    </a>
+                    <div class="superHeart">
+                        <i class="ri-heart-line"></i>
+                        <i class="ri-heart-fill"></i>
+                    </div>
+                    <div class="superBuy">
+                        <p>560</p>
+                        <p>구매</p>
+                    </div>
+                    <button><img src="images/super_btn_01.png" alt="">쇼핑엔터TV</button>
+                </li>
+                <li class="section spFood">
+                    <a href="">
+                        <div class="superImg">
+                            <img src="images/superdeal_13.jpg" alt="">
+                        </div>
+                        <h5>50%</h5>
+                        <h4>14,900<span>원</span></h4>
+                        <p>경북 홍로 사과 5KG(25~27과내외)</p>
+                        <span>구매 735 · 무료배송</span>
+                    </a>
+                    <div class="superHeart">
+                        <i class="ri-heart-line"></i>
+                        <i class="ri-heart-fill"></i>
+                    </div>
+                    <div class="superBuy">
+                        <p>1,100</p>
+                        <p>구매</p>
+                    </div>
+                    <button><i class="ri-home-2-line"></i>마녀비스켓</button>
+                </li>
+                <li class="section spFood">
+                    <a href="">
+                        <div class="superImg">
+                            <img src="images/superdeal_14.jpg" alt="">
+                        </div>
+                        <h4>24,500<span>원</span></h4>
+                        <p>다향오리 훈제슬라이스 200gx10팩</p>
+                        <span>구매 16,677 · 무료배송</span>
+                    </a>
+                    <div class="superHeart">
+                        <i class="ri-heart-line"></i>
+                        <i class="ri-heart-fill"></i>
+                    </div>
+                    <div class="superBuy">
+                        <p>120</p>
+                        <p>구매</p>
+                    </div>
+                    <button><img src="images/super_btn_01.png" alt="">쇼핑엔터TV</button>
+                </li>
+                <li class="section spFood">
+                    <a href="">
+                        <div class="superImg">
+                            <img src="images/superdeal_15.jpg" alt="">
+                        </div>
+                        <h5>50%</h5>
+                        <h4>24,900<span>원</span></h4>
+                        <p>(찐쿠폰20%) 반건조 오징어 10미 700+800g</p>
+                        <span>구매 6,175 · 무료배송</span>
+                    </a>
+                    <div class="superHeart">
+                        <i class="ri-heart-line"></i>
+                        <i class="ri-heart-fill"></i>
+                    </div>
+                    <div class="superBuy">
+                        <p>20</p>
+                        <p>구매</p>
+                    </div>
+                    <button><i class="ri-home-2-line"></i>Fresh_바다내음</button>
+                </li>
+                <li class="sectionAd">
+                    <a href="">
+                        <div class="superTxt">
+                            <h3>G마켓<br>1만원 쿠폰 증정<br>제휴이벤트</h3>
+                            <p>2020.08.31~09.30</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <a href="">슈퍼딜 전체보기
+                <i class="ri-arrow-right-line"></i>
+            </a>
+            <div class="familySite">
+                <p>패밀리 사이트</p>
+                <div class="content">
+                    <div class="siteImgL"></div>
+                    <p>쇼핑에 상식을 채우다</p>
+                    <h6>G9</h6>
+                    <button>바로가기</button>
+                </div>
+                <div class="content">
+                    <div class="siteImgR"></div>
+                    <p>G마켓 글로벌사이트</p>
+                    <h6>English / 中文</h6>
+                    <button>바로가기</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="overseas">
+        <div class="overseasWrap">
+            <h3>해외직구</h3>
+            <div class="overseasHero">
+                <img src="images/overseas_hero_01.jpg" alt="">
+            </div>
+            <div class="overseasContent">
+                <p>GLOBAL SHOPPING 해외직구</p>
+                <h2>쉽고,빠르고,안전한 직구</h2>
+                <div class="section">
+                    <div class="box">
+                        <img src="images/overseas_content_01.png" alt="">
+                        <p>생로랑 카바스백 외</p>
+                        <h4>1,393,000<span>원</span></h4>
+                    </div>
+                    <div class="box">
+                        <img src="images/overseas_content_02.png" alt="">
+                        <p>14인치 미니 캐리어</p>
+                        <h4>19,800<span>원</span></h4>
+                    </div>
+                    <div class="box">
+                        <img src="images/overseas_content_03.png" alt="">
+                        <p>스벅 네스프레소 120개</p>
+                        <h4>64,510<span>원</span></h4>
+                    </div>
+                    <div class="box">
+                        <img src="images/overseas_content_04.png" alt="">
+                        <p>미박스 S / 미TV스틱</p>
+                        <h4>33,300<span>원</span></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="g9Wrap">
+        <div class="g9Head">
+            <h3>트렌드 라이프 쇼핑 G9</h3>
+            <a href="">G9 바로가기<i class="ri-arrow-right-line"></i></a>
+            <div class="g9Hero">
+                <img src="images/g9_logo.png" alt="">
+            </div>
+            <div class="g9HeadContent">
+                <div class="section">
+                    <div class="g9Img">
+                        <img src="images/g9_content_01.JPG" alt="">
+                    </div>
+                    <p>삼성 갤럭시 노트20 울트라</p>
+                    <h4>1,452,000<span>원</span></h4>
+                </div>
+                <div class="section">
+                    <div class="g9Img">
+                        <img src="images/g9_content_02.JPG" alt="">
+                    </div>
+                    <p>쿠플 통새우볼 1kg</p>
+                    <h4>7,900<span>원</span></h4>
+                </div>
+                <div class="section">
+                    <div class="g9Img">
+                        <img src="images/g9_content_03.JPG" alt="">
+                    </div>
+                    <p>템테이션 메가팩 4개 패키지</p>
+                    <h4>20,790<span>원</span></h4>
+                </div>
+            </div>
+        </div>
+        <div class="g9Container">
+            <h3>오늘의 파워상품</h3>
+            <div class="g9Ad">
+                <button>AD</button>
+                <div class="content">
+                    <p>오늘의 파워상품이란?</p>
+                    <span>오늘의 파워상품 광고를 구매한 상품입니다.</span>
+                </div>
+            </div>
+            <div class="g9Content">
+                <div class="section">
+                    <div class="g9Img">
+                        <img src="images/g9_content_04.jpg" alt="">
+                    </div>
+                    <p>강아지 샴푸 린스 전제품 중 3개 골라담기</p>
+                    <h4>16,900<span>원</span></h4>
+
+                </div>
+                <div class="section">
+                    <div class="g9Img">
+                        <img src="images/g9_content_05.jpg" alt="">
+                    </div>
+                    <p>국내생산 식약처인증 KF94 비말차단 일회용 마스크</p>
+                    <h4>10,000<span>원</span></h4>
+                </div>
+                <div class="section">
+                    <div class="g9Img">
+                        <img src="images/g9_content_06.jpg" alt="">
+                    </div>
+                    <p>3병 마이라이프 시서스 Cissus 2500 240 야채캡슐</p>
+                    <h4>134,000<span>원</span></h4>
+                </div>
+                <div class="section">
+                    <div class="g9Img">
+                        <img src="images/g9_content_07.jpg" alt="">
+                    </div>
+                    <p>웨스트우드 파이널빅세일 썸머 티셔츠/팬츠/자켓/키즈</p>
+                    <h4>39,000<span>원</span></h4>
+                </div>
+                <div class="section">
+                    <div class="g9Img">
+                        <img src="images/g9_content_08.jpg" alt="">
+                    </div>
+                    <p>리얼 타트체리주스 1000ml 2병/NFC/타트체리/추석선물</p>
+                    <h4>41,800<span>원</span></h4>
+                </div>
+            </div>
+        </div>
+        <div class="g9Container">
+            <div class="g9MiniPower">
+                <h3>파워미니샵</h3>
+                <div class="g9Ad">
+                    <button>AD</button>
+                    <div class="content">
+                        <p>파워미니샵이란?</p>
+                        <span>파워미니샵 광고를 구매한 상품입니다.</span>
+                    </div>
+                </div>
+                <div class="section">
+                    <button><i class="ri-home-2-line"></i> 오뚜기 스마일배송</button>
+                </div>
+            </div>
+            <div class="g9MiniChance">
+                <h3>찬스상품</h3>
+                <div class="g9Ad">
+                    <button>AD</button>
+                    <div class="content">
+                        <p>찬스상품이란?</p>
+                        <span>찬스상품 광고를 구매한 상품입니다.</span>
+                    </div>
+                </div>
+                <button class="g9Prev"><i class="ri-arrow-left-s-line"></i></button>
+                <button class="g9Next"><i class="ri-arrow-right-s-line"></i></button>
+                <div class="g9Slide">
+                    <div class="g9Chance">
+                        <div class="g9Img">
+                            <img src="images/g9_content_09.jpg" alt="">
+                        </div>
+                        <p>구운 맛 고등어 110g 10팩 편리한 반찬 특별한 선물</p>
+                        <h4>29,500<span>원</span></h4>
+                    </div>
+                    <div class="g9Chance">
+                        <div class="g9Img">
+                            <img src="images/g9_content_10.jpg" alt="">
+                        </div>
+                        <p>미끄럼방지 욕실화 물빠짐 욕실화 거실 실내화 슬리퍼</p>
+                        <h4>8,900<span>원</span></h4>
+                    </div>
+                    <div class="g9Chance">
+                        <div class="g9Img">
+                            <img src="images/g9_content_11.jpg" alt="">
+                        </div>
+                        <p>전자노트 12인치 메모/필기/연습장(1+1) 주말특가</p>
+                        <h4>17,000<span>원</span></h4>
+                    </div>
+                    <div class="g9Chance">
+                        <div class="g9Img">
+                            <img src="images/g9_content_12.jpg" alt="">
+                        </div>
+                        <p>NEW/실버온 동전자기패치/100매/의료기기/자석/파스</p>
+                        <h4>10,900<span>원</span></h4>
+                    </div>
+                    <div class="g9Chance">
+                        <div class="g9Img">
+                            <img src="images/g9_content_13.jpg" alt="">
+                        </div>
+                        <p>예작 2단 수담한과 추석 명절선물 부모님 선물세트</p>
+                        <h4>19,900<span>원</span></h4>
+                    </div>
+                    <div class="g9Chance">
+                        <div class="g9Img">
+                            <img src="images/g9_content_14.jpg" alt="">
+                        </div>
+                        <p>크린 위생장갑 1050매/150매x7매/요리고무비닐장갑</p>
+                        <h4>9,800<span>원</span></h4>
+                    </div>
+                    <div class="g9Chance">
+                        <div class="g9Img">
+                            <img src="images/g9_content_15.jpg" alt="">
+                        </div>
+                        <p>강아지 샴푸 린스 전제품 중 3개 골라담기</p>
+                        <h4>16,900<span>원</span></h4>
+                    </div>
+                    <div class="g9Chance">
+                        <div class="g9Img">
+                            <img src="images/g9_content_16.jpg" alt="">
+                        </div>
+                        <p>시원한 남여 조끼/바람막이 매쉬 망사 낚기 등산 작업</p>
+                        <h4>11,900<span>원</span></h4>
+                    </div>
+                    <div class="g9Chance">
+                        <div class="g9Img">
+                            <img src="images/g9_content_17.jpg" alt="">
+                        </div>
+                        <p>인텍스 물놀이 에어 풀장/유아 어린이 베란다 수영</p>
+                        <h4>31,200<span>원</span></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="g9Notice">
+            <a>알립니다 <i class="ri-arrow-right-s-line"></i></a>
+            <a href="">[발표] 『갤럭시 노트20 사전 예약판매 알람』 이벤트 당첨자</a>
+            <span>|</span>
+            <a href="">2020-08-24</a>
+        </div>
+    </section>
+    <div class="mainFontguide">
+        <div class="fontWrap">
+            <p>G마켓의 가치를 담은 글꼴, <span>G마켓 산스</span>를 소개합니다.</p>
+            <button><i class="ri-download-line"></i>무료 다운로드</button>
+        </div>
+    </div>
+    <footer>
+        <div class="main">
+            <ul class="footNav">
+                <li><a href="">G마켓 소개</a></li>
+                <li class="line">|</li>
+                <li><a href="">채용정보</a></li>
+                <li class="line">|</li>
+                <li><a href="">이용약관</a></li>
+                <li class="line">|</li>
+                <li><a href="">개인정보처리방침</a></li>
+                <li class="line">|</li>
+                <li><a href="">청소년보호정책</a></li>
+                <li class="line">|</li>
+                <li><a href="">전자금융거래약관</a></li>
+                <li class="line">|</li>
+                <li><a href="">제휴·광고</a></li>
+                <li>
+                    <select name="footNav" id="footNav">
+                        <option value="판매자서비스">판매자서비스</option>
+                        <option value="판매자(e딜러) 회원가입">판매자(e딜러) 회원가입</option>
+                        <option value="ESM PLUS (통합판매툴)">ESM PLUS (통합판매툴)</option>
+                        <option value="판매자 교육센터">판매자 교육센터</option>
+                        <option value="판매자 광고샵">판매자 광고샵</option>
+                        <option value="판매자 공지사항">판매자 공지사항</option>
+                        <option value="쉽고 빠른 해외판매 (CBT)">쉽고 빠른 해외판매 (CBT)</option>
+                    </select>
+                </li>
+            </ul>
+            <div class="footContainer">
+                <div class="footContent">
+                    <div class="section">
+                        <span>이베이코리아 유한책임회사</span>
+                        <p>서울시 강남구 테헤란로 152(역삼동 강남파이낸스센터) 업무집행자 : 변광윤</p>
+                        <p>사업자등록번호 : 220-81-73676 <button>사업자정보확인 ></button>통신판매업신고 : 강남 10630호</p>
+                        <p>Fax : 02-589-8842</p>
+                    </div>
+                    <div class="section">
+                        <span>고객센터 <i class="ri-arrow-right-s-line"></i></span>
+                        <p>Tel : <span>1566-5701</span> (평일 09:00 ~ 18:00) 스마일클럽/SVIP전용 : <span>1522-5700</span> (365일 09:00 ~ 18:00)</p>
+                        <p>경기도 부천시 원미구 부일로 223 (상동) 투나빌딩 6층</p>
+                        <p>Fax : 02-589-8842 Mail : gmarket@corp.gmarket.co.kr</p>
+                    </div>
+                </div>
+                <div class="footContent">
+                    <a>전자금융분쟁처리 <i class="ri-arrow-right-s-line"></i></a>
+                    <span>Tel : 1566-5701 Fax : 02-589-8844 Mail : gmk_cs@corp.gmarket.co.kr</span>
+                    <a>분쟁처리절차 <i class="ri-arrow-right-s-line"></i></a>
+                    <br>
+                    <a>오픈마켓 자율준수규약 <i class="ri-arrow-right-s-line"></i></a>
+                    <a>윤리경영 <i class="ri-arrow-right-s-line"></i></a>
+                    <a>경찰청 사이버안전국 <i class="ri-arrow-right-s-line"></i></a>
+                    <a>VeRO Program <i class="ri-arrow-right-s-line"></i></a>
+                    <a>안전거래센터 <i class="ri-arrow-right-s-line"></i></a>
+                    <a>저작권침해신고 <i class="ri-arrow-right-s-line"></i></a>
+                </div>
+            </div>
+            <div class="footBottom">
+                <p>이베이코리아 유한책임회사 사이트의 상품/판매자/쇼핑정보, 컨텐츠, UI 등에 대한 무단 복제, 전송, 배포, 스크래핑 등의 행위는 저작권법, 콘텐츠사업 진흥법 등에 의하여 엄격히 금지됩니다. <button>콘텐츠산업 진흥법에따른 표시</button></p>
+                <span>G마켓은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 G마켓은 상품·거래정보 및 거래에 대하여 책임을 지지 않습니다.</span>
+                <p>Copyrightⓒ eBay Korea LLC All rights reserved.</p>
+                <p><img src="images/foot_01.JPG" alt="">한국온라인쇼핑협회 <button>수상/인증내역<i class="ri-arrow-up-s-line"></i></button></p>
+            </div>
+        </div>
+        <div class="mobileFooter">
+            <div class="mobFooterTop">
+                <button>로그인</button>
+                <button>PC버전</button>
+                <button>고객센터</button>
+            </div>
+            <div class="mobFooterContent">
+                <h4 class="mobInfo">이베이코리아 유한책임회사 사업자 정보
+                    <button>
+                        <div class="mobToggle1"></div>
+                        <div class="mobToggle2"></div>
+                        <!--
+                    <i class="ri-arrow-down-s-line"></i>
+                    <i class="ri-arrow-up-s-line"></i>
+-->
+                    </button>
+                </h4>
+                <ul>
+                    <li>
+                        <span class="tit">업무집행자</span>
+                        <span class="txt">변광윤</span>
+                    </li>
+                    <li>
+                        <span class="tit">사업자등록번호</span>
+                        <span class="txt">220-81-83676</span>
+                    </li>
+                    <li>
+                        <span class="tit">통신판매업신고</span>
+                        <span class="txt">강남 10630호</span>
+                    </li>
+                    <li>
+                        <span class="tit">주소</span>
+                        <span class="txt">서울시 강남구 테헤란로 152(역삼동 <br>강남파이낸스 센터)</span>
+                    </li>
+                    <li>
+                        <span class="tit">고객센터</span>
+                        <span class="txt">
+                            1566-5701 <br>
+                            gmarket@corp.gmarket.co.kr <br>
+                            상담가능시간 오전 9시~오후 6시 <br>
+                            (토요일, 공휴일 휴무)
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobBottom">
+                <a href="">
+                    <h4>사업자정보확인</h4>
+                </a>
+                <p>·</p>
+                <a href="">
+                    <h4>개인정보처리방침</h4>
+                </a>
+                <p>·</p>
+                <a href="">
+                    <h4>이용약관</h4>
+                </a>
+                <div>
+                    <p>G마켓은 통신판매중개자이며 통신판매의 당사자가 아닙니다. <br>따라서 G마켓은 상품/거래정보 및 가격에 대하여 책임을 지지 않습니다. <br>본 사이트/앱 상의 모든 정보, 콘텐츠, UI 등에 대한 무단 복제, 배포, 스크래핑 등의 행위는 법에 의하여 엄격히 금지됩니다.</p>
+                    <p>Copyright ⓒeBay Korea LLC All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- SCRIPT LINK -->
+    <script src="js/script2.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="slick/slick.js"></script>
+</body>
+
+</html>
