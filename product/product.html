@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/index-1.css">    
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index-1.css">
+    <script src="js/script2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <title>Document</title>
+</head>
+
+<body>
+   <div id="wrap">
+        <div class="container">
+             <header class="toptop">
+                <div class="boxHead">
+                    <img src="images/imgLogo.png" alt="" class="logo">
+                    <img src="images/imgLogo_m.png" alt="" class="logo_m">
+                    <form>
+                        <fieldset><input type="text"><button type="submit"><img src="images/imgSearch.png" alt="" class="btnSearch"></button></fieldset>
+                    </form>
+                    <div class="link">
+                        <a><img src="images/headerAd.png" alt="" width="154px" height="55px" class="headerAd"></a>
+                        <a><img src="images/headerMyInfo.png" alt="" width="47px" height="55px" class="headerMyInfo"></a>
+                        <a><img src="images/headerRecent.png" alt="" width="47px" height="55px" class="
+                        headerRecent"></a>
+                        <a href="../cart/cart.html"><img src="images/headerBasket.png" alt="" width="47px" height="55px" class="headerBasket"></a>
+                    </div>
+                </div>
+
+                <div class="menuTopMobile">
+                    <a href="">홈</a>
+                    <a href="">스마일배송</a>
+                    <a href="product/product.html">베스트</a>
+                    <a href="">당일배송</a>
+                    <a href="">홈쇼핑</a>
+                    <a href="">백화점</a>
+                    <a href="">패션</a>
+                    <a href="">공간</a>
+                    <a href="">마트</a>
+                    <a href="">배달</a>
+                    <a href="">여행</a>
+                    <a href="">e쿠폰</a>
+                </div>
+
+                <div class="boxNavigation">
+                    <button class="menuAll">전체 카테고리</button>
+                    <div class="menuSub">
+                        <a href="">베스트</a>
+                        <a href="">슈퍼딜</a>
+                        <a href="">쿠폰·출첵</a>
+                        <a href="">스마일배송</a>
+                        <a href=""><img src="images/catch.png" width="44px" height="32px" alt=""></a>
+                        <a href="" class="gold">스마일클럽</a>
+                    </div>
+                    <div class="login">
+                        <a href="">로그인</a>
+                        <a href="">회원가입</a>
+                        <a href="">고객센터</a>
+                        <a href="">Global</a>
+                    </div>
+                </div>
+            </header>
+            <!--                스크롤내리면 바뀌게 할 부분-->
+            <header class="down">
+                <div class="boxHeadDown">
+                    <button class="menuAllSmall"></button>
+                    <img src="images/imgLogoSmall.png" class="logoSmall">
+                    <form>
+                        <fieldset><input type="text"><button type="submit"><img src="images/imgSearch.png" alt="" class="btnSearch"></button></fieldset>
+                    </form>
+                    <div class="link">
+                        <a><img src="images/headerMyInfo.png" alt="" width="47px" height="55px"></a>
+                        <a><img src="images/headerRecent.png" alt="" width="47px" height="55px"></a>
+                        <a href="cart/cart.html"><img src="images/headerBasket.png" alt="" width="47px" height="55px"></a>
+                    </div>
+                </div>
+                <div class="conDown">
+                    <div class="inner">
+                        <!--           네비게이션  -->
+                        <div class="navbarDown">
+                            <a href="#brand">브랜드패션</a>
+                            <a href="#baby">유아동</a>
+                            <div class="dropdown">
+                                <a href="#fashion" class="over">패션의류ㆍ잡화ㆍ뷰티</a>
+                                <div class="dropdown-contentDown">
+                                    <div class="row">
+                                        <div class="column">
+                                            <h3>패션의류</h3>
+                                            <a href="product.html">여성의류</a>
+                                            <a href="#">남성의류</a>
+                                            <a href="#">언더웨어</a>
+                                            <a href="#">유아동의류</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>잡화</h3>
+                                            <a href="#">신발</a>
+                                            <a href="#">가방/잡화</a>
+                                            <a href="#">유아동 신발/잡화</a>
+                                            <a href="#">쥬얼리/시계</a>
+                                            <a href="#">수입명품</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>뷰티</h3>
+                                            <a href="#">백화점 명품화장품</a>
+                                            <a href="#">화장품/향수</a>
+                                            <a href="#">바디/헤어</a>
+                                        </div>
+                                        <div class="menuSum">
+                                            <img src="images/menuImg1.jpg" alt="">
+                                            <span>매주 업데이트되는 패션 쿠폰</span>
+                                            <p>매일 쏟아지는 쿠폰북 혜택을 받으세요</p>
+                                        </div>
+                                        <div class="menuBottom">
+                                            <span>바로가기<img src="images/arrow.png" alt=""></span>
+                                            <ul>
+                                                <li><a href="">해외직구</a></li>
+                                                <li><a href="">당일배송</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#food">식품ㆍ생필품</a>
+                            <a href="#acc">홈데코ㆍ문구ㆍ취미ㆍ반려</a>
+                            <a href="#computer">컴퓨터ㆍ디지털ㆍ가전</a>
+                            <a href="#sport">스포츠ㆍ건강ㆍ렌탈</a>
+                            <a href="#car">자동차ㆍ공구</a>
+                            <a href="#travel">여행ㆍ도서ㆍ티켓</a>
+                        </div>
+                    </div>
+                </div>
+                <!--           네비게이션 -->
+                <!--                스크롤내리면 바뀌게 할 부분-->
+            </header>
+
+            <div class="con">
+                <section class="mainSlide">
+                    <div class="inner">
+
+                        <div class="navbar">
+                            <div class="dropdown dropdownBrand">
+                                <a href="#brand" class="brandFashion">브랜드패션</a>
+                                <div class="dropdown-content dropdown-content-brand">
+                                    <div class="row">
+                                        <div class="column">
+                                            <h3>브랜드의류</h3>
+                                            <a href="#">브랜드여성의류</a>
+                                            <a href="#">브랜드남성의류</a>
+                                            <a href="#">브랜드 진/캐쥬얼</a>
+
+                                        </div>
+                                        <div class="column">
+                                            <h3>브랜드잡화</h3>
+                                            <a href="#">브랜드 신발/가방</a>
+                                            <a href="#">가브랜드 쥬얼리/시계</a>
+                                            <a href="#">수입명품</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>스포츠브랜드</h3>
+                                            <a href="#">브랜드 아웃도어</a>
+                                            <a href="#">브랜드 스포츠패션</a>
+                                        </div>
+                                        <div class="menuSum">
+                                            <img src="images/menuImg1.jpg" alt="">
+                                            <span>매주 업데이트되는 패션 쿠폰</span>
+                                            <p>매일 쏟아지는 쿠폰북 혜택을 받으세요</p>
+                                        </div>
+                                        <div class="menuBottom">
+                                            <span>바로가기<img src="images/arrow.png" alt=""></span>
+                                            <ul>
+                                                <li><a href="">해외직구</a></li>
+                                                <li><a href="">당일배송</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#baby">유아동</a>
+
+                            <div class="dropdown">
+                                <a href="#fashion">패션의류ㆍ잡화ㆍ뷰티</a>
+                                <div class="dropdown-content">
+                                    <div class="row">
+                                        <div class="column">
+                                            <h3>패션의류</h3>
+                                            <a href="#">여성의류</a>
+                                            <a href="#">남성의류</a>
+                                            <a href="#">언더웨어</a>
+                                            <a href="#">유아동의류</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>잡화</h3>
+                                            <a href="#">신발</a>
+                                            <a href="#">가방/잡화</a>
+                                            <a href="#">유아동 신발/잡화</a>
+                                            <a href="#">쥬얼리/시계</a>
+                                            <a href="#">수입명품</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>뷰티</h3>
+                                            <a href="#">백화점 명품화장품</a>
+                                            <a href="#">화장품/향수</a>
+                                            <a href="#">바디/헤어</a>
+                                        </div>
+                                        <div class="menuSum">
+                                            <img src="images/menuImg1.jpg" alt="">
+                                            <span>매주 업데이트되는 패션 쿠폰</span>
+                                            <p>매일 쏟아지는 쿠폰북 혜택을 받으세요</p>
+                                        </div>
+                                        <div class="menuBottom">
+                                            <span>바로가기<img src="images/arrow.png" alt=""></span>
+                                            <ul>
+                                                <li><a href="">해외직구</a></li>
+                                                <li><a href="">당일배송</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#food">식품ㆍ생필품</a>
+                            <a href="#acc">홈데코ㆍ문구ㆍ취미ㆍ반려</a>
+                            <a href="#computer">컴퓨터ㆍ디지털ㆍ가전</a>
+                            <a href="#sport">스포츠ㆍ건강ㆍ렌탈</a>
+                            <a href="#car">자동차ㆍ공구</a>
+                            <a href="#travel">여행ㆍ도서ㆍ티켓</a>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section class="category">
+            <h1 class="dspNone">category</h1>
+            <ul>
+                <li><a href="#">홈</a></li>
+                <li><a href="#">여성의류</a><span class="ctWrap"><a href="#" class="categoryHover"></a></span>
+                    <ul class="underCategory">
+                        <li><a href="#">여성의류</a></li>
+                        <li><a href="#">남성의류</a></li>
+                        <li><a href="#">언더웨워</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">블라우스</a>
+                    <span class="ctWrap"><a href="#" class="category2 categoryHover"></a></span>
+                    <ul class="cloth underCategory">
+                        <li><a href="#">티셔츠</a>
+                        </li>
+                        <li><a href="#">가디건</a></li>
+                        <li><a href="#">자켓/코트</a></li>
+                        <li><a href="#">원피스</a></li>
+                        <li><a href="#">바지/레깅스</a></li>
+                        <li><a href="#">점퍼/야상/패딩</a></li>
+                    </ul>
+                </li>
+                <li class="categoryHover">
+                    <a href="#" class="txtBlue">쉬폰/블라우스</a>
+                    <span class="ctWrap"><a href="#" class="category3 categoryHover"></a></span>
+                    <ul class="blouse underCategory">
+                        <li><a href="#">쉬폰/프린트블라우스</a></li>
+                        <li><a href="#">레이스/프릴블라우스</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="topInfo">
+            <h1 class="dspNone">Top Informaiton</h1>
+            <div class="subNav">
+                <ul>
+                    <li><a href="#" class="colorBox">상세설명</a></li>
+                    <li><a href="#">상품평</a></li>
+                    <li><a href="#">상품문의</a></li>
+                    <li><a href="#">교환/반품</a></li>
+                </ul>
+            </div>
+            <div class="left">
+                <div class="imgBig">
+                    <img src="images/mainImg1.jpg" alt="상품이미지1" class="bigImg">
+                </div>
+                <div class="small">
+                    <img src="images/mainImg1-1.jpg" alt="상품이미지" class="smallImg" onclick="imgBtn(1)">
+                    <img src="images/mainImg2-1.jpg" alt="상품이미지" class="smallImg" onclick="imgBtn(2)">
+                    <img src="images/mainImg3-1.jpg" alt="상품이미지" class="smallImg" onclick="imgBtn(3)">
+                </div>
+            </div>
+            <div class="right">
+                <div class="producName">
+                    <p><a href="#" class="homeShop">현대 홈쇼핑Hmall<i></i></a><span class="rightSpan">상품번호 : 1748564489<a href="javascript:urlClipCopy()" class="url">단축URL<i></i></a></span></p>
+                    <div class="itemName">
+                        <h1>J by Spring20 마이크로 모달 티블라우스 4종</h1>
+                        <p><span class="txtBold">59,900<span>원</span></span></p>
+                    </div>
+                    <div class="smileCp">
+                        <a href="#">스마일클럽 무료 이용하고 <span class="txtBold">7%할인쿠폰</span>을 받으세요!<span><span class="takeCp">쿠폰받기</span><span class="cpIcon"></span></span></a>
+                    </div>
+                </div>
+                <div class="clickIcon">
+                    <i></i>
+                    <i></i>
+                </div>
+                <div class="delivery">
+                    <div>
+                        <div class="deliveryNotice">
+                            <p class="dlDay"><i></i><span class="txtBlue">9/10(목) 출발예정</span></p>
+                        </div>
+                        <p class="txtBlue">무료배송</p>
+                         <div class="noticePlus">
+                                <i></i>
+                                <div>
+                                    <p>출발예정일과 배송사 정보는 판매자가 설정한 정보입니다.<br>판매자 사정 또는 여러 상품을 함께 주문한 경우 출발 예정일이나 배송사가 변동 될 수 있습니다.</p>
+                                    <i></i>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="smileClub">
+                        <button class="btnOn">스마일클럽<span class="txtBlue"> 최대2.3%적립</span><i class="changeBtn"></i></button>
+                        <div class="smileInfo">
+                            <div class="total">
+                                <dl class="totalSave">
+                                    <dt>스마일클럽 적립*</dt>
+                                    <dd class="txtBlue">0.3%</dd>
+                                    <dt>스마일카드 적립**</dt>
+                                    <dd class="txtBlue">+2.0%</dd>
+                                </dl>
+                                <dl class="totalResult">
+                                    <dt>적립 합계</dt>
+                                    <dd class="txtBlue">
+                                        최대2.3%
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="club">
+                                <dl class="clubSave">
+                                    <dt class="txtBold">스마일클럽 적립*</dt>
+                                    <dd>스마일클럽은 누구나 무료이용 신청이 가능하며 가입 즉시 스마일캐시 3만 7천원과 최대 1%적립,추가할인 혜택을 받습니다. <a href="#">자세히보기<i></i></a></dd>
+                                </dl>
+                                <a href="#">스마일클럽 무료이용<i></i></a>
+                                <dl class="limit">
+                                    <dt>적립한도</dt>
+                                    <dd>스마일클럽 적립 최대 5,000원</dd>
+                                    <dt>적립기준</dt>
+                                    <dd>주문완료 즉시 "적립예정"상태로 바로 적립</dd>
+                                    <dt>가용시점</dt>
+                                    <dd>주문완료 30일 후 "사용가능"한 상태로 변경</dd>
+                                    <dt>유효기간</dt>
+                                    <dd>"사용가능"상태로부터 6개월</dd>
+                                    <dt>유의사항</dt>
+                                    <dd>본 혜택은 스마일페이로 결제 시 적용되며 당사 사정에 따라 사전 예고 없이 변경/삭제 될 수 있습니다.판매자 제공 적립은 스마일페이와 무관하게 적용됩니다.</dd>
+                                </dl>
+                            </div>
+                            <div class="card">
+                                <p class="txtBold">스마일카드적립**</p>
+                                <p>스마일카드로 결제 시 전월실적,적립한도 없이 쓸 때마다 최대2% 적립됩니다. <a href="#">자세히보기<i></i></a></p>
+                                <a href="#">스마일카드 혜택 자세히보기<i></i></a>
+                                <dl>
+                                    <dt>적립한도</dt>
+                                    <dd>한도 제한 없음</dd>
+                                    <dt>적립기준</dt>
+                                    <dd>카드대금 납부 10일 이내 적립</dd>
+                                    <dt>유효기간</dt>
+                                    <dd>적립 후 5년</dd>
+                                    <dt>유의사항</dt>
+                                    <dd>스마일페이 결제 시 2%적립,일반 결제 시 1%적립(무이자할부 및 청구할인 시 적립제외)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="benefit">
+                        <button class="benefitBtn">
+                            <span class="benefitWrap">
+                                <span><i class="credit"></i>카드할인</span>
+                                <span><i class="cardfree"></i>무이자할부</span>
+                                <span><i class="cardadd"></i>카드추가혜택</span>
+                            </span>
+                            <i></i>
+                        </button>
+                        <div class="benefitInfo">
+                            <dl class="cardDc">
+                                <dt>카드할인</dt>
+                                <dd>즉시할인</dd>
+                                <dd>스마일카드 첫 결제 혜택(최대 10,000원)<br>→단, 10,100원 이상 결제 시 적용</dd>
+                                <dd>KB/신한/현대/NH 7%(최대 20,000원)<br>→단, 30,000원 이상 결제 시 적용
+                                    <a href="#" class="dcInfo">자세한 안내<i></i></a>
+                                </dd>
+                            </dl>
+                            <div class="creditDc">
+                                <div>
+                                    <h4 class="txtBold">신용카드 즉시할인</h4>
+                                    <a href="#"><i></i></a>
+                                    <div class="creditTxt">
+                                        <div>
+                                            <ul>
+                                                <li>추가혜택 방법의 할인가는 구매수량과 상관없이 실 구매금액(옵션가/할인쿠폰 적용) 기준으로 각 카드사 할인율을 적용한 금액입니다.</li>
+                                                <li>노출되는 할인가는 예정금액으로 배송비 및 실 구매금액에 따라 달라질 수 있으니 결제시 확인 후 적용하시기 바랍니다.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <dl class="freeInfo">
+                                <dt>카드무이자</dt>
+                                <dd>1만원 이상 무이자 <i></i></dd>
+                            </dl>
+                            <dl class="cardBenefit">
+                                <dt>카드추가혜택</dt>
+                                <dd>제휴카드 결제시 2% 스마일캐시 적립<i></i></dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="onlyNoti">
+                        <p>본 상품은 국내배송만 가능합니다</p>
+                    </div>
+                </div>
+                <div class="dcEvent">
+                    <a href="#"><img src="http://image.gmarket.co.kr/service_image/2020/09/02/20200902185223132715_0_0.png" alt="쇼핑지원금 최대70,000원 받는 법"></a>
+                </div>
+                <div class="pay">
+                    <div class="option">
+                        <h4>옵션선택</h4>
+                        <div>
+                            <button class="optionBtn"><span>선택</span><i></i>
+                            </button>
+                            <ul class="optionList">
+                                <li class="item1"><a href="#">54-재고:200개</a></li>
+
+                                <li class="item2"><a href="#">55-재고:100개</a></li>
+                                <li class="item3"><a href="#">56-재고:50개</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="optionPrice">
+                        <ul class="no1Box">
+                            <li>
+                                <div class="selectItem">
+                                    <p><span>선택 : 54</span></p>
+                                </div>
+                                <div class="noCal">
+                                    <span class="numCtrl">
+                                        <button class="numPlus" ></button>
+                                        <button class="numMinus" ></button>
+                                        <input type="text" maxlength="3" value="0" class="itemNum">
+                                    </span>
+                                    <span class="btnCupon">
+                                        <button></button>
+                                    </span>
+                                </div>
+                                <div class="chooseResult">
+                                    <strong class="plusPrice">0
+                                        <span>원</span>
+                                    </strong>
+                                    <span class="price">59900</span>
+                                    <button class="closeBtn"></button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="optionPrice">
+                        <ul class="no2Box">
+                            <li>
+                                <div class="selectItem">
+                                    <p><span>선택 : 55</span></p>
+                                </div>
+                                <div class="noCal">
+                                    <span class="numCtrl">
+                                        <button class="numPlus"></button>
+                                        <button class="numMinus" ></button>
+                                        <input type="text" maxlength="3" value="0" class="itemNum">
+                                    </span>
+                                    <span class="btnCupon">
+                                        <button></button>
+                                    </span>
+                                </div>
+                                <div class="chooseResult">
+                                    <strong class="plusPrice" value="49900">0
+                                        <span>원</span>
+                                    </strong>
+                                    <span class="price">49900</span>
+                                    <button class="closeBtn"></button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="optionPrice">
+                        <ul class="no3Box">
+                            <li>
+                                <div class="selectItem">
+                                    <p><span>선택 : 56</span></p>
+                                </div>
+                                <div class="noCal">
+                                    <span class="numCtrl">
+                                        <button class="numPlus" onclick="plus(2)"></button>
+                                        <button class="numMinus" onclick="minus(2)"></button>
+                                        <input type="text" maxlength="3" value="0" class="itemNum">
+                                    </span>
+                                    <span class="btnCupon">
+                                        <button></button>
+                                    </span>
+                                </div>
+                                <div class="chooseResult">
+                                    <strong class="plusPrice" value="30900">0
+                                        <span>원</span>
+                                    </strong>
+                                    <span class="price">30900</span>
+                                    <button class="closeBtn"></button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="purchase">
+                    <p class="total">
+                        <span class="totalTxt">총 상품금액<i></i></span>
+                        <strong class="totalPrice">
+
+                        </strong>
+                    </p>
+                    <div class="phurchaseBtn">
+                        <button>장바구니</button>
+                        <button>구매하기</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="mainInfo">
+            <div class="subNav">
+                <ul>
+                    <li><a href="#" class="colorBox">상세설명</a></li>
+                    <li><a href="#">상품평</a></li>
+                    <li><a href="#">상품문의</a></li>
+                    <li><a href="#">교환/반품</a></li>
+                </ul>
+            </div>
+            <div class="mainImg">
+                <div class="bestItem">
+                    <div class="bestWrap">
+                        <div class="innerWrap">
+                            <div class="bestCarou">
+                                <h3>판매자의 인기상품 <a href="#"></a></h3>
+                                <div class="otherItem">
+                                    <ul>
+                                        <li><a href="#">
+                                                <!--                                                <span><img src="//pics.gmarket.co.kr/mobile/single/kr/promotion/bigs/tag/tag.png?v=20200915" alt="빅세일 상품" class="saleIcon"></span>-->
+                                                <span>
+                                                    <img src="http://gdimg.gmarket.co.kr/1778313777/still/120" alt="판매자 대표 상품" class="represent">
+                                                </span>
+                                                <p>[Hmall] 드고떼 Spring 실루엣 스웻 셋업 4종</p>
+                                                <strong class="reprePrice">59,900<span>원</span></strong>
+                                            </a></li>
+                                        <li><a href="#">
+                                                <!--                                                <span><img src="//pics.gmarket.co.kr/mobile/single/kr/promotion/bigs/tag/tag.png?v=20200915" alt="빅세일 상품" class="saleIcon"></span>-->
+                                                <span>
+                                                    <img src="http://gdimg.gmarket.co.kr/1867977180/still/120" alt="판매자 대표 상품" class="represent">
+                                                </span>
+                                                <p>이상봉 에디션 20Fall 아트플리츠 블라우스2종</p>
+                                                <strong class="reprePrice">39,900<span>원</span></strong>
+                                            </a></li>
+                                        <li><a href="#">
+                                                <!--                                                <span><img src="//pics.gmarket.co.kr/mobile/single/kr/promotion/bigs/tag/tag.png?v=20200915" alt="빅세일 상품" class="saleIcon"></span>-->
+                                                <span>
+                                                    <img src="http://gdimg.gmarket.co.kr/1868230040/still/120" alt="판매자 대표 상품" class="represent">
+                                                </span>
+                                                <p>꼬에 20 Autum 클린 블라우스 5종</p>
+                                                <strong class="reprePrice">59,900<span>원</span></strong>
+                                            </a></li>
+                                        <li><a href="#">
+                                                <!--                                                <span><img src="//pics.gmarket.co.kr/mobile/single/kr/promotion/bigs/tag/tag.png?v=20200915" alt="빅세일 상품" class="saleIcon"></span>-->
+                                                <span>
+                                                    <img src="http://gdimg.gmarket.co.kr/1873196350/still/120" alt="판매자 대표 상품" class="represent">
+                                                </span>
+                                                <p>고비(GOBI) 캐시미어 100% 홀가먼트 풀오버(여) 베이직 컬러</p>
+                                                <strong class="reprePrice">109,000<span>원</span></strong>
+                                            </a></li>
+                                        <li><a href="#">
+                                                <!--                                                <span><img src="//pics.gmarket.co.kr/mobile/single/kr/promotion/bigs/tag/tag.png?v=20200915" alt="빅세일 상품" class="saleIcon"></span>-->
+                                                <span>
+                                                    <img src="http://gdimg.gmarket.co.kr/1872729490/still/120" alt="판매자 대표 상품" class="represent">
+                                                </span>
+                                                <p>J by 20FW 소프트 FAUX 레더팬츠</p>
+                                                <strong class="reprePrice">69,900<span>원</span></strong>
+                                            </a></li>
+                                        <li><a href="#">
+                                                <!--                                                <span><img src="//pics.gmarket.co.kr/mobile/single/kr/promotion/bigs/tag/tag.png?v=20200915" alt="빅세일 상품" class="saleIcon"></span>-->
+                                                <span>
+                                                    <img src="http://gdimg.gmarket.co.kr/1853689326/still/120" alt="판매자 대표 상품" class="represent">
+                                                </span>
+                                                <p>아테스토니 여성 클라시코 트위드 하프재킷 1종</p>
+                                                <strong class="reprePrice">44,000<span>원</span></strong>
+                                            </a></li>
+                                        <li><a href="#">
+                                                <!--                                                <span><img src="//pics.gmarket.co.kr/mobile/single/kr/promotion/bigs/tag/tag.png?v=20200915" alt="빅세일 상품" class="saleIcon"></span>-->
+                                                <span>
+                                                    <img src="http://gdimg.gmarket.co.kr/1857138239/still/120" alt="판매자 대표 상품" class="represent">
+                                                </span>
+                                                <p>에이앤디 20 Summer 오버롤 점프수트 셋업 3종 (티셔츠+점프수트+원피스)</p>
+                                                <strong class="reprePrice">39,900<span>원</span></strong>
+                                            </a></li>
+                                        <li><a href="#">
+                                                <!--                                                <span><img src="//pics.gmarket.co.kr/mobile/single/kr/promotion/bigs/tag/tag.png?v=20200915" alt="빅세일 상품" class="saleIcon"></span>-->
+                                                <span>
+                                                    <img src="http://gdimg.gmarket.co.kr/1764110591/still/120" alt="판매자 대표 상품" class="represent">
+                                                </span>
+                                                <p>[LeH 헤비추얼] 세미부츠컷 탄성 치즈 팬츠 4종 (여) / 슬랙스 / 여성바지 /밴딩팬츠</p>
+                                                <strong class="reprePrice">49,900<span>원</span></strong>
+                                            </a></li>
+                                        <li><a href="#">
+                                                <!--                                                <span><img src="//pics.gmarket.co.kr/mobile/single/kr/promotion/bigs/tag/tag.png?v=20200915" alt="빅세일 상품" class="saleIcon"></span>-->
+                                                <span>
+                                                    <img src="http://gdimg.gmarket.co.kr/1772461871/still/120" alt="판매자 대표 상품" class="represent">
+                                                </span>
+                                                <p>밀라노스토리 코튼100% 볼륨 셔츠 3종</p>
+                                                <strong class="reprePrice">49,900<span>원</span></strong>
+                                            </a></li>
+                                        <li><a href="#">
+                                                <!--                                                <span><img src="//pics.gmarket.co.kr/mobile/single/kr/promotion/bigs/tag/tag.png?v=20200915" alt="빅세일 상품" class="saleIcon"></span>-->
+                                                <span>
+                                                    <img src="http://gdimg.gmarket.co.kr/1872729589/still/120" alt="판매자 대표 상품" class="represent">
+                                                </span>
+                                                <p>J by 20FW 오스트리아 렌징모달 브릴리언트컷 펄니트 4종</p>
+                                                <strong class="reprePrice">79,900<span>원</span></strong>
+                                            </a></li>
+                                        <li><a href="#">
+                                                <!--                                                <span><img src="//pics.gmarket.co.kr/mobile/single/kr/promotion/bigs/tag/tag.png?v=20200915" alt="빅세일 상품" class="saleIcon"></span>-->
+                                                <span>
+                                                    <img src="http://gdimg.gmarket.co.kr/1882883171/still/120" alt="판매자 대표 상품" class="represent">
+                                                </span>
+                                                <p>[닥터펩스토리] KF94 마스크 (50매) </p>
+                                                <strong class="reprePrice">39,900<span>원</span></strong>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                                <span>
+                                    <button class="prev"></button>
+                                    <span class="status">
+                                        <span class="now">1</span> /
+                                        <span class="totalPage">2</span>
+                                    </span>
+                                    <button class="next"></button>
+                                </span>
+                            </div>
+                            <div class="shopInfo">
+                                <a href="#"></a>
+                                <strong><a href="#">현대홈쇼핑Hmall</a></strong>
+                                <p><span class="powerdealer"></span></p>
+                                <button class="addShop"></button>
+                                <a href="#" class="goStore"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mainContainer">
+                        <div class="mainDetail">
+                            <div class="mainBanner">
+                                <a href="#"><img src="http://image.gmarket.co.kr/hanbando/201906/e51bfcc1-9f03-411e-8dc9-ea75d99dce96.png" alt="홈쇼핑 안내" class="homeShopImg"></a>
+                            </div>
+                            <div class="secondBanner">
+                                <div class="maininner">
+                                    <p><a href="#"><img src="http://image.gmarket.co.kr/service_image/2020/08/14/20200814165000509112_0_0.png" alt="직거래 유도 주의" class="bannerImg"></a></p>
+                                </div>
+                                <div class="boxDetail">
+                                    <iframe src=http://item.gmarket.co.kr/Item/ItemDetail?goodsCode=1748564489&detailVersionType=2&isNew=false"" frameborder="0" width="860" height="20025"></iframe>
+                                    
+                                </div>
+                                <div class="detailMore">
+                                    <button class="detailBtn">상세정보 <span>더보기</span></button>
+                                </div>
+                            </div>
+                            <div class="productNotice">
+                                <h3>상품 정보 제공 고시 <span>[전자상거래에 관한 상품정보 제공에 관한 고시] 항목에 의거 [현대홈쇼핑Hmall]에 의해 등록된 정보입니다.</span>
+                                </h3>
+                                <div class="noticeList">
+                                    <dl>
+                                        <dt>상품번호</dt>
+                                        <dd>1748564489</dd>
+                                        <dt>상품상태</dt>
+                                        <dd>새상품</dd>
+                                        <dt>부가세 면세여부</dt>
+                                        <dd>과세상품</dd>
+                                        <dt>영수증발행</dt>
+                                        <dd>발행가능-신용카드 전표,온라인 현금영수증</dd>
+                                        <dt>사업자 구분</dt>
+                                        <dd>사업자 판매자</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="secondCal">
+                               <button class="mbBtn"><i></i></button>
+                                <div class="smallOp">
+                                    <div class="option">
+                        <h4>옵션선택</h4>
+                        <div class="secondOption">
+                            <button class="optionBtn"><span>선택</span><i></i>
+                            </button>
+                            <ul class="optionList">
+                                <li class="item"><a href="#">54-재고:200개</a></li>
+
+                                <li class="item"><a href="#">55-재고:100개</a></li>
+                                <li class="item"><a href="#">56-재고:50개</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                                <div class="optionPrice">
+                        <ul class="no1Box">
+                            <li>
+                                <div class="selectItem">
+                                    <p><span>선택 : 54</span></p>
+                                </div>
+                                <div class="noCal">
+                                    <span class="numCtrl">
+                                        <button class="numPlus"></button>
+                                        <button class="numMinus"></button>
+                                        <input type="text" maxlength="3" value="0" class="itemNum">
+                                    </span>
+                                    <span class="btnCupon">
+                                        <button></button>
+                                    </span>
+                                </div>
+                                <div class="chooseResult">
+                                    <strong class="plusPrice">0
+                                        <span>원</span>
+                                    </strong>
+                                    <span class="price">59900</span>
+                                    <button class="closeBtn"></button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="optionPrice">
+                        <ul class="no2Box">
+                            <li>
+                                <div class="selectItem">
+                                    <p><span>선택 : 55</span></p>
+                                </div>
+                                <div class="noCal">
+                                    <span class="numCtrl">
+                                        <button class="numPlus"></button>
+                                        <button class="numMinus"></button>
+                                        <input type="text" maxlength="3" value="0" class="itemNum">
+                                    </span>
+                                    <span class="btnCupon">
+                                        <button></button>
+                                    </span>
+                                </div>
+                                <div class="chooseResult">
+                                    <strong class="plusPrice" value="49900">0
+                                        <span>원</span>
+                                    </strong>
+                                    <span class="price">49900</span>
+                                    <button class="closeBtn"></button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="optionPrice">
+                        <ul class="no3Box">
+                            <li>
+                                <div class="selectItem">
+                                    <p><span>선택 : 56</span></p>
+                                </div>
+                                <div class="noCal">
+                                    <span class="numCtrl">
+                                        <button class="numPlus"></button>
+                                        <button class="numMinus"></button>
+                                        <input type="text" maxlength="3" value="0" class="itemNum">
+                                    </span>
+                                    <span class="btnCupon">
+                                        <button></button>
+                                    </span>
+                                </div>
+                                <div class="chooseResult">
+                                    <strong class="plusPrice" value="30900">0
+                                        <span>원</span>
+                                    </strong>
+                                    <span class="price">30900</span>
+                                    <button class="closeBtn"></button>
+                                </div>
+                            </li>
+                        </ul>
+                                    </div>
+                                </div>
+                                <div class="smallPur">
+                                    <div class="purchase">
+                    <p class="total">
+                        <span class="totalTxt">총 상품금액<i></i></span>
+                        <strong class="totalPrice">
+
+                        </strong>
+                    </p>
+                    <div class="phurchaseBtn secondBtn">
+                        <button>장바구니</button>
+                        <button>구매하기</button>
+                    </div>
+                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+     <footer>
+        <div class="main">
+            <ul class="footNav">
+                <li><a href="">G마켓 소개</a></li>
+                <li class="line">|</li>
+                <li><a href="">채용정보</a></li>
+                <li class="line">|</li>
+                <li><a href="">이용약관</a></li>
+                <li class="line">|</li>
+                <li><a href="">개인정보처리방침</a></li>
+                <li class="line">|</li>
+                <li><a href="">청소년보호정책</a></li>
+                <li class="line">|</li>
+                <li><a href="">전자금융거래약관</a></li>
+                <li class="line">|</li>
+                <li><a href="">제휴·광고</a></li>
+                <li>
+                    <select name="footNav" id="footNav">
+                        <option value="판매자서비스">판매자서비스</option>
+                        <option value="판매자(e딜러) 회원가입">판매자(e딜러) 회원가입</option>
+                        <option value="ESM PLUS (통합판매툴)">ESM PLUS (통합판매툴)</option>
+                        <option value="판매자 교육센터">판매자 교육센터</option>
+                        <option value="판매자 광고샵">판매자 광고샵</option>
+                        <option value="판매자 공지사항">판매자 공지사항</option>
+                        <option value="쉽고 빠른 해외판매 (CBT)">쉽고 빠른 해외판매 (CBT)</option>
+                    </select>
+                </li>
+            </ul>
+            <div class="footContainer">
+                <div class="footContent">
+                    <div class="section">
+                        <span>이베이코리아 유한책임회사</span>
+                        <p>서울시 강남구 테헤란로 152(역삼동 강남파이낸스센터) 업무집행자 : 변광윤</p>
+                        <p>사업자등록번호 : 220-81-73676 <button>사업자정보확인 ></button>통신판매업신고 : 강남 10630호</p>
+                        <p>Fax : 02-589-8842</p>
+                    </div>
+                    <div class="section">
+                        <span>고객센터 <i class="ri-arrow-right-s-line"></i></span>
+                        <p>Tel : <span>1566-5701</span> (평일 09:00 ~ 18:00) 스마일클럽/SVIP전용 : <span>1522-5700</span> (365일 09:00 ~ 18:00)</p>
+                        <p>경기도 부천시 원미구 부일로 223 (상동) 투나빌딩 6층</p>
+                        <p>Fax : 02-589-8842 Mail : gmarket@corp.gmarket.co.kr</p>
+                    </div>
+                </div>
+                <div class="footContent">
+                    <a>전자금융분쟁처리 <i class="ri-arrow-right-s-line"></i></a>
+                    <span>Tel : 1566-5701 Fax : 02-589-8844 Mail : gmk_cs@corp.gmarket.co.kr</span>
+                    <a>분쟁처리절차 <i class="ri-arrow-right-s-line"></i></a>
+                    <br>
+                    <a>오픈마켓 자율준수규약 <i class="ri-arrow-right-s-line"></i></a>
+                    <a>윤리경영 <i class="ri-arrow-right-s-line"></i></a>
+                    <a>경찰청 사이버안전국 <i class="ri-arrow-right-s-line"></i></a>
+                    <a>VeRO Program <i class="ri-arrow-right-s-line"></i></a>
+                    <a>안전거래센터 <i class="ri-arrow-right-s-line"></i></a>
+                    <a>저작권침해신고 <i class="ri-arrow-right-s-line"></i></a>
+                </div>
+            </div>
+            <div class="footBottom">
+                <p>이베이코리아 유한책임회사 사이트의 상품/판매자/쇼핑정보, 컨텐츠, UI 등에 대한 무단 복제, 전송, 배포, 스크래핑 등의 행위는 저작권법, 콘텐츠사업 진흥법 등에 의하여 엄격히 금지됩니다. <button>콘텐츠산업 진흥법에따른 표시</button></p>
+                <span>G마켓은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 G마켓은 상품·거래정보 및 거래에 대하여 책임을 지지 않습니다.</span>
+                <p>Copyrightⓒ eBay Korea LLC All rights reserved.</p>
+                <p><img src="images/foot_01.JPG" alt="">한국온라인쇼핑협회 <button>수상/인증내역<i class="ri-arrow-up-s-line"></i></button></p>
+            </div>
+        </div>
+        <div class="mobileFooter">
+            <div class="mobFooterTop">
+                <button>로그인</button>
+                <button>PC버전</button>
+                <button>고객센터</button>
+            </div>
+            <div class="mobFooterContent">
+                <h4 class="mobInfo">이베이코리아 유한책임회사 사업자 정보 
+                <button>
+                    <div class="mobToggle1"></div>
+                    <div class="mobToggle2"></div>
+                </button>
+                </h4>
+                <ul>
+                    <li>
+                        <span class="tit">업무집행자</span>
+                        <span class="txt">변광윤</span>
+                    </li>
+                    <li>
+                        <span class="tit">사업자등록번호</span>
+                        <span class="txt">220-81-83676</span>
+                    </li>
+                    <li>
+                        <span class="tit">통신판매업신고</span>
+                        <span class="txt">강남 10630호</span>
+                    </li>
+                    <li>
+                        <span class="tit">주소</span>
+                        <span class="txt">서울시 강남구 테헤란로 152(역삼동 <br>강남파이낸스 센터)</span>
+                    </li>
+                    <li>
+                        <span class="tit">고객센터</span>
+                        <span class="txt">
+                            1566-5701 <br>
+                            gmarket@corp.gmarket.co.kr <br>
+                            상담가능시간 오전 9시~오후 6시 <br> 
+                            (토요일, 공휴일 휴무)
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobBottom">
+                <a href=""><h4>사업자정보확인</h4></a>
+                <p>·</p>
+                <a href="">
+                    <h4>개인정보처리방침</h4>
+                </a>
+                <p>·</p>
+                <a href="">
+                    <h4>이용약관</h4>
+                </a>
+                <div>
+                    <p>G마켓은 통신판매중개자이며 통신판매의 당사자가 아닙니다. <br>따라서 G마켓은 상품/거래정보 및 가격에 대하여 책임을 지지 않습니다. <br>본 사이트/앱 상의 모든 정보, 콘텐츠, UI 등에 대한 무단 복제, 배포, 스크래핑 등의 행위는 법에 의하여 엄격히 금지됩니다.</p>
+                    <p>Copyright ⓒeBay Korea LLC All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="js/product.js"></script></html>
