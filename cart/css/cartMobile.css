@@ -1,0 +1,549 @@
+@media (max-width:768px) {
+
+
+    #wrap {
+        display: none;
+    }
+
+    body {}
+
+    input[type="checkbox"] {
+        display: inline-block;
+
+        vertical-align: top;
+        cursor: pointer;
+        margin-right: 7px;
+        padding: 0;
+
+
+
+    }
+
+    .container {
+        width: 100%;
+
+        max-width: 750px;
+        margin: 0 auto;
+
+    }
+
+    .cartHeader {
+        width: 100%;
+    }
+
+
+    .cartHeader h1 {
+        padding: 0;
+        font-size: 17px;
+        line-height: 56px;
+        text-align: center;
+        float: none;
+        margin-left: 0;
+    }
+
+    .cartHeader span {
+        display: inline-block;
+        font-size: 30px;
+        position: absolute;
+        left: 90%;
+        line-height: 56px;
+        color: #cecece;
+        font-weight: lighter;
+        text-align: right;
+        cursor: pointer;
+    }
+
+    .cartStep {
+        display: none;
+    }
+
+
+    .cartTap .container {
+        width: 100%;
+    }
+
+    .cartTap ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .cartTap ul li {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .cartTap ul li a {
+        color: #363636;
+        font-size: 16px;
+        text-align: center;
+        font-weight: inherit;
+        line-height: 49px;
+
+
+    }
+
+    .cartTap ul li a span {
+        font-size: 11px;
+        line-height: 20px;
+        background-color: #ececec;
+        color: #222222;
+        padding: 5px 9px;
+    }
+
+    .cartTap ul li:nth-child(1) a span {
+        color: #067efd;
+        background-color: #e6f1fd;
+    }
+
+    .cartTap ul li:nth-child(1) a {
+        margin-left: 1px;
+        color: #067efd;
+        font-weight: 700;
+
+    }
+
+    .cartTap ul li:nth-child(2) {
+        padding: 0;
+    }
+
+
+
+    .innerCont .container {
+        width: 100%;
+    }
+
+    .innerCont ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 18px 11px 10px;
+
+    }
+
+    .innerCont ul span {
+        display: none;
+    }
+
+    .innerCont ul li #checkAll {
+        margin: 0 7px;
+        vertical-align: middle;
+    }
+
+    .innerCont ul .checkDel {
+        border: 1px solid #ccc;
+        padding: 3px 5px;
+        background: #fff;
+        cursor: pointer;
+    }
+
+    .innerCont ul li {
+        font-size: 14px;
+        line-height: 15px;
+        vertical-align: middle;
+        font-weight: normal;
+    }
+
+
+
+
+    .cartOption {
+        width: 100%;
+        max-width: 750px;
+        padding: 0 7px;
+    }
+
+    .cartOption .container {
+        width: 100%;
+        max-width: 750px;
+    }
+
+    .cartOption .cartBasketWrap {
+        float: none;
+        width: auto;
+    }
+
+    .cartBasketMinishop {
+        padding: 0;
+        width: 100%;
+        float: none;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .cartBasketMinishop .cartBasketHeader {
+        padding: 17px 10px 17px 10px;
+        margin: 0;
+        border-bottom: 1px solid #dedede;
+    }
+
+    .cartBasketMinishop .cartBasketHeader .shopName {
+        font-weight: normal;
+        margin: 22px 0 22px 0;
+    }
+
+
+    .cartBasketMinishop .orderList {
+        border-top: 1px solid #f1f1f1;
+        margin: 0 10px;
+        height: 195px;
+    }
+
+    .cartBasketMinishop .orderList img {
+        margin: 0;
+        display: inline-block;
+    }
+
+    .cartBasketMinishop .unitItemDesc {
+        max-width: 750px;
+        width: 100%;
+    }
+
+    .cartBasketMinishop .orderList .unitItemDesc .itemName {
+        display: inline-block;
+        width: 55%;
+        position: absolute;
+        left: 150px;
+        margin-top: -80px;
+        padding-right: 34px;
+        cursor: pointer;
+    }
+
+    .cartBasketMinishop .orderList .unitItemDesc .itemName:hover {
+        color: #2e8de5;
+
+    }
+
+    .cartBasketMinishop .itemQtyWrap {
+        float: left;
+        margin: 30px 10px 0 30px;
+    }
+
+    .cartBasketMinishop .unitItemDesc .itemTitle input[type="number"] {
+        background-color: #f2f3f5;
+    }
+
+    .cartBasketMinishop .unitItemDesc .itemTitle {
+        max-width: 750px;
+        width: 100%;
+    }
+
+    .cartBasketMinishop .unitItemDesc .itemTitle .itemPrice {
+        margin: 30px 10px 0 0;
+
+    }
+
+    .cartBasketMinishop .unitItemDesc .itemTitle .itemPrice .textValue {
+        font-weight: lighter;
+    }
+
+
+
+    .cartBasketMinishop .orderListFirst .unitItemDesc .itemOption {
+        position: relative;
+        left: 30px;
+        top: -50px;
+        width: 100px;
+
+    }
+
+    .cartBasketMinishop .orderListFirst .itemTitle .priceDesc {
+        display: none;
+    }
+
+    .cartBasketMinishop .orderListSecond .unitItemDesc .itemOption {
+        clear: both;
+        position: relative;
+        left: 130px;
+        top: -85px;
+        width: auto;
+    }
+
+
+
+    .cartBasketMinishop .orderListSecond .unitItemDesc .itemOption br {
+        display: block;
+    }
+
+
+
+
+    .cartBasketMinishop .unitItemDesc .itemTitle .coupon {
+        vertical-align: middle;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    /*cartTotal*/
+
+    .cartTotal {
+        padding: 11px 34px 15px 30px;
+        background-color: #f1f1f1;
+    }
+
+    .cartTotal .subSec {
+        display: block;
+        width: auto;
+        overflow: hidden;
+    }
+
+    .cartTotal i {
+        display: none;
+    }
+
+    .cartTotal .subSec .label {
+        font-size: 13px;
+        float: left;
+        display: inline-block;
+        font-weight: lighter;
+        color: #7f8590;
+    }
+
+    .cartTotal .subSec .itemPrice {
+        float: right;
+        text-align: inherit;
+
+    }
+
+
+    .cartTotal .subSec .itemPrice .textValue {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .cartTotal .subSec:nth-child(1) {
+        width: auto;
+    }
+
+    .cartTotal .subTotal .label {
+        color: #000;
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .cartTotal .subTotal .itemPrice .textValue {
+        font-weight: 700;
+    }
+
+
+    /*-----------order--------------*/
+    .order {
+        margin-top: 0;
+        float: none;
+        width: 100%;
+        max-width: 750px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .order .orderAction {
+        display: none;
+    }
+
+    .order .orderInfo {
+        margin: 0 22px;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 10px;
+    }
+
+    .order .orderInfo ul li {
+        margin: 0;
+    }
+
+    .order .orderTitle {
+        padding: 0 22px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .order .orderTitle .text {
+        font-weight: normal;
+    }
+
+    .order .orderSummary {
+        margin: 0 22px;
+        padding-bottom: 10px;
+    }
+
+    .order .orderSummary .label {
+        font-size: 16px;
+        font-weight: normal;
+        margin: 0;
+    }
+
+
+    .orderBottom {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        line-height: 20px;
+        padding: 6px;
+        letter-spacing: -0.5px;
+        background-color: #f2f3f5;
+        width: 100%;
+        height: 56px;
+        border-top: 1px solid #dbdbdb;
+        border-bottom: 1px solid #dbdbdb;
+    }
+
+    .orderBottom .summary {
+        vertical-align: top;
+        position: absolute;
+        left: 20px;
+        top: 6px;
+    }
+
+    .orderBottom .summary span {
+        color: #5e636d;
+        font-size: 13px;
+        letter-spacing: -0.5px;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    .orderBottom .summary em {
+        color: #067dfd;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .orderBottom .summary .textValue:nth-of-type(2) {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+        vertical-align: top;
+    }
+
+    .orderBottom .summary .textUnit {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+        color: #000;
+    }
+
+    .orderBottom .btnSubmit {
+        font-size: 19px;
+        color: white;
+        background-color: #0675fd;
+        font-weight: 700;
+        line-height: 45px;
+        width: 60%;
+        height: 44px;
+        float: right;
+    }
+
+
+
+
+
+
+
+
+    /* Footer */
+    footer .main {
+        display: none;
+    }
+
+    footer .mobileFooter {
+        display: block;
+        padding: 15px 0 80px 0;
+        background: #5E636D;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .mobFooterTop button {
+        width: 60px;
+        height: 25px;
+        background: #6E727B;
+        color: #ccc;
+        font-size: 13px;
+        border-radius: 2px;
+    }
+
+    .mobFooterContent {
+        margin-top: 15px;
+        color: #ccc;
+    }
+
+    .mobInfo {
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    .mobFooterContent button {
+        vertical-align: middle;
+        width: 13px;
+        height: 13px;
+        margin-left: 5px;
+        border: 1px solid #ccc;
+        border-radius: 6.5px;
+        text-align: center;
+    }
+
+    .mobFooterContent button i {
+        vertical-align: top;
+        margin: -1.5px 0 0 -1.5px;
+        color: #ccc;
+    }
+
+    .mobFooterContent .ri-arrow-up-s-line {
+        display: none;
+    }
+
+    .mobFooterContent ul {
+        display: none;
+        width: 100%;
+        height: 145px;
+        margin-top: 10px;
+        padding: 5px 0;
+        background: #646972;
+        font-size: 11px;
+        text-align: left;
+        line-height: 15px;
+    }
+
+    .mobFooterContent li {
+        position: relative;
+        width: 252px;
+        margin: 0 auto;
+        padding-left: 75px;
+    }
+
+    .mobFooterContent .tit {
+        position: absolute;
+        top: 0;
+        left: 0px;
+        color: #9ea1a8;
+    }
+
+    .mobFooterContent .txt {
+        color: #ccc;
+    }
+
+    .mobBottom {
+        margin-top: 10px;
+    }
+
+    .mobBottom a {
+        display: inline-block;
+        margin-bottom: 10px;
+        color: #ccc;
+    }
+
+    .mobBottom > p {
+        display: inline-block;
+        color: #83878F;
+    }
+
+    .mobBottom div p {
+        color: #83878F;
+        font-size: 11px;
+        line-height: 12px;
+    }
+
+
+
+}
+
+}
